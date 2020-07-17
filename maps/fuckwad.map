@@ -1,0 +1,95 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"newunit" "0"
+"gametitle" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"WaveHeight" "0.0"
+"sounds" "1"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\khr_prototype_hl.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\winfades.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\czde_fastline.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\czcs_office.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\deepmind2_ny.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\decals.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( -352 544 192 ) ( -352 544 -32 ) ( -352 288 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -800 288 192 ) ( -800 288 -32 ) ( -800 544 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -352 288 192 ) ( -352 288 -32 ) ( -800 288 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -800 544 192 ) ( -800 544 -32 ) ( -352 544 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -800 544 -32 ) ( -800 288 -32 ) ( -352 544 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -352 288 192 ) ( -800 288 192 ) ( -352 544 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 384 352 192 ) ( 384 352 -32 ) ( 384 -192 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 -192 192 ) ( -32 -192 -32 ) ( -32 352 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 -192 192 ) ( 384 -192 -32 ) ( -32 -192 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 352 192 ) ( -32 352 -32 ) ( 384 352 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 352 -32 ) ( -32 -192 -32 ) ( 384 352 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 -192 192 ) ( -32 -192 192 ) ( 384 352 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -64 160 192 ) ( -64 160 -32 ) ( -64 -352 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -736 -352 192 ) ( -736 -352 -32 ) ( -736 160 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -352 192 ) ( -64 -352 -32 ) ( -736 -352 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -736 160 192 ) ( -736 160 -32 ) ( -64 160 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -736 160 -32 ) ( -736 -352 -32 ) ( -64 160 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 -352 192 ) ( -736 -352 192 ) ( -64 160 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 0 864 192 ) ( 0 864 -32 ) ( 0 672 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 672 192 ) ( -256 672 -32 ) ( -256 864 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 672 192 ) ( 0 672 -32 ) ( -256 672 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 864 192 ) ( -256 864 -32 ) ( 0 864 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 864 -32 ) ( -256 672 -32 ) ( 0 864 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 672 192 ) ( -256 672 192 ) ( 0 864 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 896 512 192 ) ( 896 512 -32 ) ( 896 -416 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -416 192 ) ( 288 -416 -32 ) ( 288 512 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 896 -416 192 ) ( 896 -416 -32 ) ( 288 -416 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 512 192 ) ( 288 512 -32 ) ( 896 512 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 512 -32 ) ( 288 -416 -32 ) ( 896 512 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 896 -416 192 ) ( 288 -416 192 ) ( 896 512 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 480 64 192 ) ( 480 64 -32 ) ( 480 -512 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 -512 192 ) ( 64 -512 -32 ) ( 64 64 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 480 -512 192 ) ( 480 -512 -32 ) ( 64 -512 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 192 ) ( 64 64 -32 ) ( 480 64 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 -32 ) ( 64 -512 -32 ) ( 480 64 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 480 -512 192 ) ( 64 -512 192 ) ( 480 64 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 128 -736 192 ) ( 128 -736 -32 ) ( 128 -1056 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -1056 192 ) ( -128 -1056 -32 ) ( -128 -736 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 -1056 192 ) ( 128 -1056 -32 ) ( -128 -1056 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -736 192 ) ( -128 -736 -32 ) ( 128 -736 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -736 -32 ) ( -128 -1056 -32 ) ( 128 -736 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 -1056 192 ) ( -128 -1056 192 ) ( 128 -736 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -672 -704 192 ) ( -672 -704 -32 ) ( -672 -960 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1056 -960 192 ) ( -1056 -960 -32 ) ( -1056 -704 192 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -672 -960 192 ) ( -672 -960 -32 ) ( -1056 -960 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1056 -704 192 ) ( -1056 -704 -32 ) ( -672 -704 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1056 -704 -32 ) ( -1056 -960 -32 ) ( -672 -704 -32 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -672 -960 192 ) ( -1056 -960 192 ) ( -672 -704 192 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "light"
+"_falloff" "2"
+"m_iTurnOffStyle" "0"
+"m_iTurnOffTime" "0"
+"m_iTurnOnStyle" "0"
+"m_iTurnOnTime" "0"
+"m_iOffStyle" "0"
+"m_iOnStyle" "0"
+"style" "0"
+"_light" "255 255 128 200"
+"origin" "-265 -76 192"
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "45 0 224"
+}

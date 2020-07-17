@@ -1,0 +1,429 @@
+hlcsg v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLCSG_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart -low -wadinclude sdhlt.wad -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       6 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [      on ] [     off ]
+estimate              [      on ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[sdhlt.wad]
+
+CreateBrush:
+ (1.46 seconds)
+CSGBrush:
+ (1.29 seconds)
+
+added 46 additional animating textures.
+Including Wadfile: \Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdhlt.wad
+ - Contains 3 used textures, 0.90 percent of map (27 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\czcs_office.wad
+ - Contains 71 used textures, 21.19 percent of map (305 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\czde_fastline.wad
+ - Contains 13 used textures, 3.88 percent of map (158 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\deepmind2_ny.wad
+ - Contains 72 used textures, 21.49 percent of map (156 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\winfades.wad
+ - Contains 2 used textures, 0.60 percent of map (18 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 174 used textures, 51.94 percent of map (3116 textures in wad)
+
+Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;winfades.wad;halflife.wad;"
+Texture usage is at 11.02 mb (of 32.00 mb MAX)
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              0/512            0/32768    ( 0.0%)
+planes          51416/32768    1028320/655360   (156.9%)
+vertexes            0/65535          0/786420   ( 0.0%)
+nodes               0/32767          0/786408   ( 0.0%)
+texinfos        10189/32767     407560/1310680  (31.1%)
+faces               0/65535          0/1310700  ( 0.0%)
+* worldfaces        0/32768          0/0        ( 0.0%)
+clipnodes           0/32767          0/262136   ( 0.0%)
+leaves              0/32760          0/917280   ( 0.0%)
+* worldleaves       0/8192           0/0        ( 0.0%)
+marksurfaces        0/65535          0/131070   ( 0.0%)
+surfedges           0/512000         0/2048000  ( 0.0%)
+edges               0/256000         0/1024000  ( 0.0%)
+texdata          [variable]      18080/33554432 ( 0.1%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]     195033/2097152  ( 9.3%)
+* AllocBlock        0/64             0/0        ( 0.0%)
+335 textures referenced
+=== Total BSP file data space used: 1648993 bytes ===
+Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;winfades.wad;halflife.wad;"
+3.50 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLBSP_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart -low 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       6 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [      on ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5500...6000...6500...7000...7500...8000...8500...9000...9500...10000...10500...11000...11500...12000...12500...12696 (0.78 seconds)
+BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01.prt'
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5103 (0.36 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...4000...4300 (0.30 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5445 (0.39 seconds)
+Warning: No visible brushes in solid entity: model 89 (entity: classname "func_wall_toggle", origin "", targetname "idiot_protector_1", range (560,1604,492) - (1232,1684,572))
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (893,1939,83)-(934,2000,184) in hull 0 of model 316 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (890,1936,89)-(898,1946,166) in hull 0 of model 316 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (984,1952,89)-(1016,1992,195) in hull 3 of model 316 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-381,-413,654)-(-369,-412,666) in hull 1 of model 317 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-381,-413,672)-(-369,-412,684) in hull 3 of model 317 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-291,-430,733)-(-266,-394,735) in hull 0 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-294,-432,734)-(-268,-396,736) in hull 0 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-294,-399,710)-(-289,-395,733) in hull 0 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-294,-431,710)-(-269,-397,713) in hull 0 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-298,-433,709)-(-274,-399,711) in hull 0 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-309,-448,770)-(-284,-413,772) in hull 1 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-314,-451,743)-(-289,-415,745) in hull 1 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-314,-451,745)-(-288,-415,747) in hull 1 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-280,-386,672)-(-275,-381,674) in hull 1 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-278,-381,677)-(-273,-379,693) in hull 1 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-256,-417,672)-(-254,-414,676) in hull 1 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-325,-464,766)-(-300,-429,768) in hull 2 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-330,-467,741)-(-304,-431,743) in hull 2 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-330,-467,739)-(-305,-431,741) in hull 2 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-264,-367,676)-(-262,-364,683) in hull 2 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-262,-365,681)-(-257,-363,697) in hull 2 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-240,-401,676)-(-238,-398,680) in hull 2 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-309,-448,752)-(-284,-413,754) in hull 3 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-314,-451,725)-(-289,-415,727) in hull 3 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-314,-451,727)-(-288,-415,729) in hull 3 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-280,-383,690)-(-278,-380,697) in hull 3 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-278,-381,695)-(-273,-379,711) in hull 3 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-256,-417,690)-(-254,-414,694) in hull 3 of model 318 (entity: classname "func_illusionary", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (564,1065,460)-(566,1091,480) in hull 0 of model 326 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (635,1034,464)-(651,1064,480) in hull 0 of model 326 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (285,1946,284)-(312,1967,288) in hull 0 of model 328 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (308,1946,260)-(312,1948,284) in hull 0 of model 328 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (306,1689,260)-(310,1691,284) in hull 0 of model 328 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (285,1946,60)-(312,1967,64) in hull 0 of model 329 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (308,1946,36)-(312,1948,60) in hull 0 of model 329 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (415,1689,36)-(418,1691,60) in hull 0 of model 329 (entity: classname "func_wall", origin "", targetname "")
+Reduced 26747 clipnodes to 24458
+Reduced 10189 texinfos to 9505
+Reduced 335 texdatas to 331 (18080 bytes to 15680)
+Reduced 51416 planes to 13318
+FixBrinks:
+Increased 24458 clipnodes to 24540.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            387/512        24768/32768    (75.6%)
+planes          13318/32768     266360/655360   (40.6%)
+vertexes        48995/65535     587940/786420   (74.8%)
+nodes           19432/32767     466368/786408   (59.3%)
+texinfos         9505/32767     380200/1310680  (29.0%)
+faces           31152/65535     623040/1310700  (47.5%)
+* worldfaces    22175/32768          0/0        (67.7%)
+clipnodes       24540/32767     196320/262136   (74.9%)
+leaves          13121/32760     367388/917280   (40.1%)
+* worldleaves    7336/8192           0/0        (89.6%)
+marksurfaces    44417/65535      88834/131070   (67.8%)
+surfedges      149806/512000    599224/2048000  (29.3%)
+edges           82741/256000    330964/1024000  (32.3%)
+texdata          [variable]      15680/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]     195033/2097152  ( 9.3%)
+* AllocBlock       57/64             0/0        (89.1%)
+331 textures referenced
+=== Total BSP file data space used: 4142119 bytes ===
+Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;winfades.wad;halflife.wad;"
+7.60 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlvis -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLVIS_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart -low 
+ 360 portalleafs
+ 552 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       6 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [      on ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.03 seconds)
+LeafThread:
+ (0.03 seconds)
+average leafs visible: 54
+g_visdatasize:83604  compressed from 16200
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            387/512        24768/32768    (75.6%)
+planes          13318/32768     266360/655360   (40.6%)
+vertexes        48995/65535     587940/786420   (74.8%)
+nodes           19432/32767     466368/786408   (59.3%)
+texinfos         9505/32767     380200/1310680  (29.0%)
+faces           31152/65535     623040/1310700  (47.5%)
+* worldfaces    22175/32768          0/0        (67.7%)
+clipnodes       24540/32767     196320/262136   (74.9%)
+leaves          13121/32760     367388/917280   (40.1%)
+* worldleaves    7336/8192           0/0        (89.6%)
+marksurfaces    44417/65535      88834/131070   (67.8%)
+surfedges      149806/512000    599224/2048000  (29.3%)
+edges           82741/256000    330964/1024000  (32.3%)
+texdata          [variable]      15680/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]      83604/8388608  ( 1.0%)
+entdata          [variable]     195033/2097152  ( 9.3%)
+* AllocBlock       57/64             0/0        (89.1%)
+331 textures referenced
+=== Total BSP file data space used: 4225723 bytes ===
+Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;winfades.wad;halflife.wad;"
+0.24 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlrad -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLRAD_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart -smooth 20 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01" -estimate -chart -smooth 20 -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 6 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [                on ] [               off ]
+estimate             [                on ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            20.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global texlight gap  [             0.000 ] [             0.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+Using Wadfile: C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of01.wa_
+331 textures referenced
+Reading texlights from 'C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\lights.rad'
+6 opaque models
+383 opaque faces
+31152 faces
+Create Patches : 70566 base patches
+404600 square feet [58262492.00 square inches]
+2879 direct lights and 16386 fast direct lights
+7 light styles
+
+FindFacePositions:
+ (1.96 seconds)
+BuildFacelights:
+ (51.66 seconds)
+BuildVisLeafs:
+ (29.79 seconds)
+visibility matrix   :  41.3 megs
+MakeScales:
+ (40.93 seconds)
+Transfer Lists :    80132497 :    80.13M transfers
+       Indices :    81722448 :    77.94M bytes
+          Data :   160472573 :   153.04M bytes
+Bounce 1 GatherLight:
+ (1.26 seconds)
+Bounce 2 GatherLight:
+ (1.22 seconds)
+Bounce 3 GatherLight:
+ (1.21 seconds)
+Bounce 4 GatherLight:
+ (1.21 seconds)
+Bounce 5 GatherLight:
+ (1.22 seconds)
+Bounce 6 GatherLight:
+ (1.21 seconds)
+Bounce 7 GatherLight:
+ (1.24 seconds)
+Bounce 8 GatherLight:
+ (1.20 seconds)
+CreateTriangulations:
+ (0.55 seconds)
+AddPatchLights:
+ (1.97 seconds)
+FinalLightFace:
+ (0.51 seconds)
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            387/512        24768/32768    (75.6%)
+planes          13318/32768     266360/655360   (40.6%)
+vertexes        48995/65535     587940/786420   (74.8%)
+nodes           19432/32767     466368/786408   (59.3%)
+texinfos         9505/32767     380200/1310680  (29.0%)
+faces           31152/65535     623040/1310700  (47.5%)
+* worldfaces    22175/32768          0/0        (67.7%)
+clipnodes       24540/32767     196320/262136   (74.9%)
+leaves          13121/32760     367388/917280   (40.1%)
+* worldleaves    7336/8192           0/0        (89.6%)
+marksurfaces    44417/65535      88834/131070   (67.8%)
+surfedges      149806/512000    599224/2048000  (29.3%)
+edges           82741/256000    330964/1024000  (32.3%)
+texdata          [variable]      15680/33554432 ( 0.0%)
+lightdata        [variable]    2622069/50331648 ( 5.2%)
+visdata          [variable]      83604/8388608  ( 1.0%)
+entdata          [variable]     195033/2097152  ( 9.3%)
+* AllocBlock       57/64             0/0        (89.1%)
+331 textures referenced
+=== Total BSP file data space used: 6847792 bytes ===
+Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;winfades.wad;halflife.wad;"
+138.88 seconds elapsed [2m 18s]
+
+-----   END   hlrad -----
+
+
+

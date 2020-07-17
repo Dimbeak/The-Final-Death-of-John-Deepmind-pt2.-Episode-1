@@ -1,0 +1,104 @@
+// HALF-LIFE SPEECH SYSTEM SENTENCES. DO NOT MODIFY THIS FILE! Max of 1023 sentences.
+
+// HUMAN GRUNTS
+HG_GREN0 hgrunt/clik grenade1 clik
+HG_GREN1 hgrunt/clik takecover1 clik
+HG_GREN2 hgrunt/clik ohshit clik
+HG_GREN3 hgrunt/clik takecover2 clik
+HG_GREN4 hgrunt/clik ohshit2 clik
+HG_GREN5 hgrunt/clik grenade2 clik
+HG_GREN6 hgrunt/clik getout clik
+
+// Player Alert
+HG_ALERT0 hgrunt/clik gotcompany1 clik 
+HG_ALERT1 hgrunt/clik targetspotted1 clik
+HG_ALERT2 hgrunt/clik movement clik
+HG_ALERT3 hgrunt/clik gotbogey clik
+HG_ALERT4 hgrunt/clik terroristspotted clik
+HG_ALERT5 hgrunt/clik overhere clik
+HG_ALERT6 hgrunt/clik movein clik
+
+// Monster Alert
+HG_MONST0 hgrunt/clik gothostiles clik
+HG_MONST1 hgrunt/clik moreofem clik
+HG_MONST2 hgrunt/clik gotenemy clik
+HG_MONST3 hgrunt/clik badguy clik
+
+// Take cover
+HG_COVER0 hgrunt/clik getdown1 clik
+HG_COVER1 hgrunt/clik getdown2 clik
+HG_COVER2 hgrunt/clik cneedbackup clik
+HG_COVER3 hgrunt/clik takingfire clik
+HG_COVER4 hgrunt/clik getdown3 clik
+HG_COVER5 hgrunt/clik clear clik
+HG_COVER6 hgrunt/clik getaway clik
+HG_COVER7 hgrunt/clik cover clik
+
+// Throw grenade
+HG_THROW0 hgrunt/clik fireinhole clik
+HG_THROW1 hgrunt/clik throw1 clik
+HG_THROW2 hgrunt/clik throw2 clik
+HG_THROW3 hgrunt/clik throw3 clik
+ 
+// Taunt
+HG_TAUNT0 hgrunt/clik taunt1 clik
+HG_TAUNT1 hgrunt/clik taunt2 clik
+HG_TAUNT2 hgrunt/clik taunt3 clik
+HG_TAUNT3 hgrunt/clik taunt4 clik
+HG_TAUNT4 hgrunt/clik taunt5 clik
+HG_TAUNT5 hgrunt/clik taunt6 clik
+
+// Charge
+HG_CHARGE0 hgrunt/clik movein1 clik
+HG_CHARGE1 hgrunt/clik movein2 clik
+HG_CHARGE2 hgrunt/clik movein3 clik
+HG_CHARGE3 hgrunt/clik movein4 clik
+
+// Idle
+HG_IDLE0 hgrunt/clik idle1 clik
+HG_IDLE1 hgrunt/clik idle2 clik
+HG_IDLE2 hgrunt/clik idle3 clik
+
+HG_QUEST0 hgrunt/clik stayalert1 clik
+HG_QUEST1 hgrunt/clik stayalert2 clik
+HG_QUEST2 hgrunt/clik stayalert3 clik
+HG_QUEST3 hgrunt/clik stayalert4 clik
+HG_QUEST4 hgrunt/clik stayalert5 clik
+HG_QUEST5 hgrunt/clik stayalert6 clik
+HG_QUEST6 hgrunt/clik stayalert7 clik
+HG_QUEST7 hgrunt/clik stayalert8 clik
+HG_QUEST8 hgrunt/clik stayalert9 clik
+HG_QUEST9 hgrunt/clik stayalert10 clik
+HG_QUEST10 hgrunt/clik stayalert11 clik
+HG_QUEST11 hgrunt/clik stayalert12 clik
+
+HG_ANSWER0 hgrunt/clik yes1 clik
+HG_ANSWER1 hgrunt/clik yes2 clik
+HG_ANSWER2 hgrunt/clik yes3 clik
+HG_ANSWER3 hgrunt/clik yes4 clik
+HG_ANSWER4 hgrunt/clik yes5 clik
+HG_ANSWER5 hgrunt/clik yes6 clik
+HG_ANSWER6 hgrunt/clik yes7 clik
+
+HG_CLEAR0 hgrunt/clik areasecured1 clik
+HG_CLEAR1 hgrunt/clik areasecured2 clik
+HG_CLEAR2 hgrunt/clik areasecured3 clik
+HG_CLEAR3 hgrunt/clik areasecured4 clik
+HG_CLEAR4 hgrunt/clik areasecured5 clik
+HG_CLEAR5 hgrunt/clik areasecured6 clik
+HG_CLEAR6 hgrunt/clik areasecured7 clik
+HG_CLEAR7 hgrunt/clik areasecured8 clik
+HG_CLEAR8 hgrunt/clik areasecured9 clik
+HG_CLEAR9 hgrunt/clik areasecured10 clik
+HG_CLEAR10 hgrunt/clik areasecured11 clik
+HG_CLEAR11 hgrunt/clik areasecured12 clik
+HG_CLEAR12 hgrunt/clik areasecured13 clik
+
+HG_CHECK0 hgrunt/clik checkin1 clik
+HG_CHECK1 hgrunt/clik checkin2 clik
+HG_CHECK2 hgrunt/clik checkin3 clik
+HG_CHECK3 hgrunt/clik checkin4 clik
+HG_CHECK4 hgrunt/clik checkin5 clik
+HG_CHECK5 hgrunt/clik checkin6 clik
+HG_CHECK6 hgrunt/clik checkin7 clik
+HG_CHECK7 hgrunt/clik checkin8 clik
