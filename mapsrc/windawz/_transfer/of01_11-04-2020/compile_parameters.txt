@@ -1,0 +1,12 @@
+add the following to your compile parameters if you haven't:
+	csg: -cliptype precise -wadautodetect -estimate -chart
+	bsp: -estimate -chart
+	vis: -estimate -chart
+	rad/light: -estimate -chart -smooth 75 -texlightgap 10
+	
+- 	you've probably set texlightgap already but if not, do that ^^
+
+- 	smooth is global, so if you want specific smoothing values on specific textures, use info_smoothvalue (key : texture name; value : 
+	max angle between the normals of two faces for smoothing to be performed)
+	
+don't forget your lights.rad! :p

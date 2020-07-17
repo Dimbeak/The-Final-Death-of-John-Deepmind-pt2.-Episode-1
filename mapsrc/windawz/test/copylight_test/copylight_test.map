@@ -1,0 +1,132 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"newunit" "0"
+"gametitle" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"WaveHeight" "0.0"
+"sounds" "1"
+"mapversion" "220"
+"wad" "\Games\Half-Life\valve\halflife.wad;\Games\Half-Life\valve\liquids.wad;\Games\Half-Life\valve\xeno.wad;\Program Files\J.A.C.K\tools\zhlt.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\czcs_office.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\czde_fastline.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\winfades.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\deepmind_windawz.wad;\Work\HL\Shared\Ogdred\SS2TOWERTEST\SS2.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\decals.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\khr_prototype_hl.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\deepmind2_ny.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 0 -512 0 ) ( 0 -512 -64 ) ( 0 0 0 ) NULL [ 0 -1 0 0 ] [ 0 0 -1 -64 ] 0 1 1
+( 512 0 0 ) ( 512 0 -64 ) ( 512 -512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 -64 ] 0 1 1
+( 0 0 0 ) ( 0 0 -64 ) ( 512 0 0 ) NULL [ -1 0 0 0 ] [ 0 0 -1 -64 ] 0 1 1
+( 512 -512 0 ) ( 512 -512 -64 ) ( 0 -512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 -64 ] 0 1 1
+( 512 -512 0 ) ( 0 -512 0 ) ( 512 0 0 ) CRETE3_FLR05 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 0 -64 ) ( 0 -512 -64 ) ( 512 0 -64 ) NULL [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 64 256 ) ( 512 64 0 ) ( 512 0 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 0 256 ) ( 0 0 0 ) ( 0 64 256 ) NULL [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 0 256 ) ( 512 0 0 ) ( 0 0 256 ) CRETE2_WALL02 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 64 256 ) ( 0 64 0 ) ( 512 64 256 ) NULL [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 64 0 ) ( 0 0 0 ) ( 512 64 0 ) NULL [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 0 256 ) ( 0 0 256 ) ( 512 64 256 ) NULL [ 1 0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 -512 256 ) ( 512 -512 0 ) ( 512 -576 256 ) NULL [ 0 1 0 64 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -576 256 ) ( 0 -576 0 ) ( 0 -512 256 ) NULL [ 0 -1 0 -64 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -576 256 ) ( 512 -576 0 ) ( 0 -576 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 256 ) ( 0 -512 0 ) ( 512 -512 256 ) CRETE2_WALL02 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 0 ) ( 0 -576 0 ) ( 512 -512 0 ) NULL [ -1 0 0 0 ] [ 0 -1 0 -64 ] 0 1 1
+( 512 -576 256 ) ( 0 -576 256 ) ( 512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 -64 ] 0 1 1
+}
+{
+( -64 -512 256 ) ( -64 -512 0 ) ( -64 0 256 ) NULL [ 0 -1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 0 256 ) ( 0 0 0 ) ( 0 -512 256 ) CRETE2_WALL02 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 256 ) ( 0 -512 0 ) ( -64 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 0 256 ) ( -64 0 0 ) ( 0 0 256 ) NULL [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 0 256 ) ( 0 -512 256 ) ( -64 0 256 ) NULL [ 0 1 0 0 ] [ 1 0 0 0 ] 0 1 1
+( -64 -512 0 ) ( 0 -512 0 ) ( -64 0 0 ) NULL [ 0 -1 0 -0 ] [ 1 0 0 0 ] 0 1 1
+}
+{
+( 512 -512 256 ) ( 512 -512 0 ) ( 512 0 256 ) CRETE2_WALL02 [ 0 -1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 576 0 256 ) ( 576 0 0 ) ( 576 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 576 -512 256 ) ( 576 -512 0 ) ( 512 -512 256 ) NULL [ 1 0 0 -64 ] [ 0 0 -1 0 ] 0 1 1
+( 512 0 256 ) ( 512 0 0 ) ( 576 0 256 ) NULL [ -1 0 0 64 ] [ 0 0 -1 0 ] 0 1 1
+( 576 0 256 ) ( 576 -512 256 ) ( 512 0 256 ) NULL [ 0 1 0 0 ] [ 1 0 0 -64 ] 0 1 1
+( 512 -512 0 ) ( 576 -512 0 ) ( 512 0 0 ) NULL [ 0 -1 0 -0 ] [ 1 0 0 -64 ] 0 1 1
+}
+{
+( 0 -512 320 ) ( 0 -512 256 ) ( 0 0 320 ) NULL [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 0 320 ) ( 512 0 256 ) ( 512 -512 320 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 0 320 ) ( 0 0 256 ) ( 512 0 320 ) NULL [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 320 ) ( 512 -512 256 ) ( 0 -512 320 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 320 ) ( 0 -512 320 ) ( 512 0 320 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 0 256 ) ( 0 -512 256 ) ( 512 0 256 ) CRETE3_FLR05 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 320 0 128 ) ( 320 -192 128 ) ( 320 0 256 ) CRETE2_WALL02 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 0 256 ) ( 256 -256 256 ) ( 256 0 128 ) CRETE2_WALL02 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 0 256 ) ( 256 0 128 ) ( 320 0 256 ) CRETE2_WALL02 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 256 ) ( 256 0 256 ) ( 320 -256 256 ) CRETE2_WALL02 [ 1 0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 0 128 ) ( 256 -192 128 ) ( 320 0 128 ) CRETE2_WALL02 [ 1 0 0 0 ] [ 0 1 0 64 ] 0 1 1
+( 320 -256 256 ) ( 320 -192 128 ) ( 256 -256 256 ) CRETE2_WALL02 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+{
+( 320 0 128 ) ( 320 0 -0 ) ( 320 -160 128 ) CRETE2_WALL02 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -192 64 ) ( 256 -192 -0 ) ( 256 -160 128 ) CRETE2_WALL02 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 -192 64 ) ( 320 -192 -0 ) ( 256 -192 64 ) CRETE2_WALL02 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 0 128 ) ( 256 0 -0 ) ( 320 0 128 ) CRETE2_WALL02 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 0 0 ) ( 256 -192 0 ) ( 320 0 0 ) CRETE2_WALL02 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 -160 128 ) ( 256 0 128 ) ( 320 -160 128 ) CRETE2_WALL02 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 -160 128 ) ( 320 -192 64 ) ( 256 -160 128 ) CRETE2_WALL02 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+{
+"classname" "light"
+"angles" "0 180 0"
+"_falloff" "2"
+"m_iTurnOffStyle" "0"
+"m_iTurnOffTime" "0"
+"m_iTurnOnStyle" "0"
+"m_iTurnOnTime" "0"
+"m_iOffStyle" "0"
+"m_iOnStyle" "0"
+"style" "0"
+"_light" "255 226 0 200"
+"origin" "128 -128 160"
+}
+{
+"classname" "light"
+"angles" "0 180 0"
+"_falloff" "2"
+"m_iTurnOffStyle" "0"
+"m_iTurnOffTime" "0"
+"m_iTurnOnStyle" "0"
+"m_iTurnOnTime" "0"
+"m_iOffStyle" "0"
+"m_iOnStyle" "0"
+"style" "0"
+"_light" "51 255 48 200"
+"origin" "416 -128 160"
+}
+{
+"classname" "info_player_start"
+"angles" "0 99 0"
+"origin" "272 -400 48"
+}
+{
+"classname" "env_model"
+"m_iAction_Off" "0"
+"m_iAction_On" "0"
+"body" "0"
+"skin" "0"
+"rendercolor" "0 0 0"
+"renderamt" "0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 270 0"
+"model" "models/barney.mdl"
+"scale" "1"
+"zhlt_copylight" "pos"
+"origin" "126.42 -161.56 1"
+}
+{
+"classname" "info_target"
+"targetname" "pos"
+"origin" "416 -160 48"
+}

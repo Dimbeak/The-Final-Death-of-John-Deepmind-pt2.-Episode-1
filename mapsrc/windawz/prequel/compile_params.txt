@@ -1,0 +1,4 @@
+CSG: -wadautodetect -cliptype precise -estimate -chart
+BSP: -estimate -chart
+VIS: -estimate -chart
+RAD: -lights deepmind_prequel.rad -estimate -chart
