@@ -256,23 +256,23 @@ Node #   4:
 
    5
   14
-  15  Entity on connection: func_wall, name:   Model: *113
+  15  Entity on connection: func_wall, name:   Model: *112
 ----------------------------------------------------------------------------
 Node #   5:
 
    4
    6
    7
-  10  Entity on connection: func_wall, name:   Model: *112
+  10  Entity on connection: func_wall, name:   Model: *111
   14
-  15  Entity on connection: func_wall, name:   Model: *113
+  15  Entity on connection: func_wall, name:   Model: *112
 ----------------------------------------------------------------------------
 Node #   6:
 
    5
    7
   10
-  14  Entity on connection: func_wall, name:   Model: *112
+  14  Entity on connection: func_wall, name:   Model: *111
 ----------------------------------------------------------------------------
 Node #   7:
 
@@ -298,11 +298,11 @@ Node #   9:
 ----------------------------------------------------------------------------
 Node #  10:
 
-   5  Entity on connection: func_wall, name:   Model: *112
+   5  Entity on connection: func_wall, name:   Model: *111
    6
    9
-  14  Entity on connection: func_wall, name:   Model: *112
-  15  Entity on connection: func_wall, name:   Model: *112
+  14  Entity on connection: func_wall, name:   Model: *111
+  15  Entity on connection: func_wall, name:   Model: *111
 ----------------------------------------------------------------------------
 Node #  11:
 
@@ -323,17 +323,17 @@ Node #  14:
 
    4
    5
-   6  Entity on connection: func_wall, name:   Model: *112
+   6  Entity on connection: func_wall, name:   Model: *111
    9
-  10  Entity on connection: func_wall, name:   Model: *112
+  10  Entity on connection: func_wall, name:   Model: *111
   15
 ----------------------------------------------------------------------------
 Node #  15:
 
-   4  Entity on connection: func_wall, name:   Model: *113
-   5  Entity on connection: func_wall, name:   Model: *113
+   4  Entity on connection: func_wall, name:   Model: *112
+   5  Entity on connection: func_wall, name:   Model: *112
    9
-  10  Entity on connection: func_wall, name:   Model: *112
+  10  Entity on connection: func_wall, name:   Model: *111
   14
 ----------------------------------------------------------------------------
 Node #  16:
@@ -423,20 +423,20 @@ Node #  29:
   30
   34
   36
-  37  Entity on connection: func_breakable, name:   Model: *180
+  37  Entity on connection: func_breakable, name:   Model: *178
 ----------------------------------------------------------------------------
 Node #  30:
 
   28
   29
-  31  Entity on connection: func_breakable, name:   Model: *179
+  31  Entity on connection: func_breakable, name:   Model: *177
   34
   35
   37
 ----------------------------------------------------------------------------
 Node #  31:
 
-  30  Entity on connection: func_breakable, name:   Model: *179
+  30  Entity on connection: func_breakable, name:   Model: *177
   37
 ----------------------------------------------------------------------------
 Node #  32:
@@ -458,7 +458,7 @@ Node #  34:
   29
   30
   35
-  37  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *82
+  37  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *81
 ----------------------------------------------------------------------------
 Node #  35:
 
@@ -473,17 +473,17 @@ Node #  36:
   28
   29
   35
-  37  Entity on connection: func_breakable, name:   Model: *180
+  37  Entity on connection: func_breakable, name:   Model: *178
 ----------------------------------------------------------------------------
 Node #  37:
 
   28
-  29  Entity on connection: func_breakable, name:   Model: *180
+  29  Entity on connection: func_breakable, name:   Model: *178
   30
   31
-  34  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *82
+  34  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *81
   35
-  36  Entity on connection: func_breakable, name:   Model: *180
+  36  Entity on connection: func_breakable, name:   Model: *178
 ----------------------------------------------------------------------------
 
  137 Total Initial Connections -    7 Maximum connections for a single node.
