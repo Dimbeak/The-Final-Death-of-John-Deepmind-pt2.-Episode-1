@@ -4,5 +4,12 @@
 |                                          |
 #------------------------------------------+
 
-Ritual Entertainment, Turtle Rock Studios, Valve 	- 	Counter-Strike: Condition Zero and 
-														Counter-Strike: Condition Zero: Deleted scenes textures.
+-----------------------------------------------------------------------------------
+Ritual Entertainment, 
+Turtle Rock Studios,    -  Counter-Strike: Condition Zero and 
+Valve 					   Counter-Strike: Condition Zero: Deleted scenes textures.
+-----------------------------------------------------------------------------------
+
+Admer456 				- Technical advice, SoHL 1.2 VS2019 port
+
+-----------------------------------------------------------------------------------
