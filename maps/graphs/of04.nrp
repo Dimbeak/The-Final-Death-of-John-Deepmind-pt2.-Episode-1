@@ -1,5 +1,5 @@
 Node Graph Report for map:  of04.bsp
-21 Total Nodes
+34 Total Nodes
 
 Node#            0
 Location      -464,-258, 160
@@ -123,6 +123,84 @@ HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           20
 Location        40,-764, 160
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           21
+Location      -224,-128,-296
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           22
+Location         0, -72,-296
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           23
+Location       400, -88,-296
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           24
+Location       384,-512,-296
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           25
+Location       136,-408,-296
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           26
+Location      -224, 632, 392
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           27
+Location        64, 600, 392
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           28
+Location       248, 496, 392
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           29
+Location       -80, 624, 392
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           30
+Location       136, 328, 392
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           31
+Location      -208, 568, 392
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           32
+Location       -96, 816, 392
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#           33
+Location       -96, 816, 392
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
@@ -311,8 +389,93 @@ Node #  20:
    4
   19
 ----------------------------------------------------------------------------
+Node #  21:
 
- 116 Total Initial Connections -    9 Maximum connections for a single node.
+  22
+  24
+  25
+----------------------------------------------------------------------------
+Node #  22:
+
+  21
+  23
+----------------------------------------------------------------------------
+Node #  23:
+
+  22
+  24
+----------------------------------------------------------------------------
+Node #  24:
+
+  21
+  23
+  25
+----------------------------------------------------------------------------
+Node #  25:
+
+  21
+  24
+----------------------------------------------------------------------------
+Node #  26:
+
+  27
+  28  Entity on connection: func_wall, name:   Model: *258
+  29
+  31
+----------------------------------------------------------------------------
+Node #  27:
+
+  26
+  28
+  29
+  30  Entity on connection: func_wall, name:   Model: *257
+  31
+----------------------------------------------------------------------------
+Node #  28:
+
+  26  Entity on connection: func_wall, name:   Model: *258
+  27
+  29
+----------------------------------------------------------------------------
+Node #  29:
+
+  26
+  27
+  28
+  30
+  31
+  32  Entity on connection: func_door, name: elev_door  Model: *255
+  33  Entity on connection: func_door, name: elev_door  Model: *255
+----------------------------------------------------------------------------
+Node #  30:
+
+  27  Entity on connection: func_wall, name:   Model: *257
+  29
+  31
+----------------------------------------------------------------------------
+Node #  31:
+
+  26
+  27
+  29
+  30
+  32  Entity on connection: func_door, name: elev_door  Model: *254
+  33  Entity on connection: func_door, name: elev_door  Model: *254
+----------------------------------------------------------------------------
+Node #  32:
+
+  29  Entity on connection: func_door, name: elev_door  Model: *255
+  31  Entity on connection: func_door, name: elev_door  Model: *254
+  33
+----------------------------------------------------------------------------
+Node #  33:
+
+  29  Entity on connection: func_door, name: elev_door  Model: *255
+  31  Entity on connection: func_door, name: elev_door  Model: *254
+  32
+----------------------------------------------------------------------------
+
+ 162 Total Initial Connections -    9 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -528,6 +691,98 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node   4 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
+Node   21:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  24 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
+Node   22:
+
+NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
+Node   23:
+
+NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
+Node   24:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  21 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
+Node   25:
+
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
+Node   26:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  28 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   27:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  28 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  30 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   28:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  26 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  29 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  27 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   29:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  28 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  33 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  32 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  30 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   30:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  27 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  31 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  29 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   31:
+
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  30 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  33 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  32 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   32:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  29 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  31 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   33:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  29 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  31 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------
@@ -612,6 +867,47 @@ Node  19:
 Node  20:
 ----------------------------------------------------------------------------
 
+Node  21:
+----------------------------------------------------------------------------
+
+Node  22:
+----------------------------------------------------------------------------
+
+Node  23:
+----------------------------------------------------------------------------
+
+Node  24:
+----------------------------------------------------------------------------
+
+Node  25:
+----------------------------------------------------------------------------
+
+Node  26:
+REJECTED NODE  27 through Node  29, Dot = 0.998479
+----------------------------------------------------------------------------
+
+Node  27:
+REJECTED NODE  26 through Node  29, Dot = 0.998516
+----------------------------------------------------------------------------
+
+Node  28:
+----------------------------------------------------------------------------
+
+Node  29:
+----------------------------------------------------------------------------
+
+Node  30:
+----------------------------------------------------------------------------
+
+Node  31:
+----------------------------------------------------------------------------
+
+Node  32:
+----------------------------------------------------------------------------
+
+Node  33:
+----------------------------------------------------------------------------
+
 
 
 -------------------------------------------------------------------------------
@@ -622,7 +918,7 @@ WARNING: Node  19 does not connect back to Node  18
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 40
+Total Number of Connections in Pool: 62
 -------------------------------------------------------------------------------
-Connection Pool: 960 bytes
+Connection Pool: 1488 bytes
 -------------------------------------------------------------------------------
