@@ -47,39 +47,39 @@ Wadinclude list :
 [sdhlt.wad]
 
 CreateBrush:
- (0.94 seconds)
+ (0.97 seconds)
 CSGBrush:
- (0.92 seconds)
+ (0.98 seconds)
 
 added 33 additional animating textures.
 Including Wadfile: \Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdhlt.wad
  - Contains 3 used textures, 1.01 percent of map (27 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\czcs_office.wad
- - Contains 63 used textures, 21.28 percent of map (305 textures in wad)
+ - Contains 63 used textures, 21.21 percent of map (305 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\czde_fastline.wad
- - Contains 20 used textures, 6.76 percent of map (158 textures in wad)
+ - Contains 20 used textures, 6.73 percent of map (158 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\deepmind2_ny.wad
- - Contains 36 used textures, 12.16 percent of map (173 textures in wad)
+ - Contains 36 used textures, 12.12 percent of map (173 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\deepmind_windawz.wad
- - Contains 12 used textures, 4.05 percent of map (170 textures in wad)
+ - Contains 12 used textures, 4.04 percent of map (170 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\zhlt.wad
  - Contains 1 used texture, 0.34 percent of map (12 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad
- - Contains 160 used textures, 54.05 percent of map (3116 textures in wad)
+ - Contains 161 used textures, 54.21 percent of map (3116 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad
  - Contains 1 used texture, 0.34 percent of map (32 textures in wad)
 
 Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;deepmind_windawz.wad;zhlt.wad;halflife.wad;liquids.wad;"
-Texture usage is at 7.09 mb (of 32.00 mb MAX)
+Texture usage is at 7.10 mb (of 32.00 mb MAX)
 8 redundant named lights optimized.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models              0/512            0/32768    ( 0.0%)
-planes          39446/32768     788920/655360   (120.4%)
+planes          40070/32768     801400/655360   (122.3%)
 vertexes            0/65535          0/786420   ( 0.0%)
 nodes               0/32767          0/786408   ( 0.0%)
-texinfos         7773/32767     310920/1310680  (23.7%)
+texinfos         7798/32767     311920/1310680  (23.8%)
 faces               0/65535          0/1310700  ( 0.0%)
 * worldfaces        0/32768          0/0        ( 0.0%)
 clipnodes           0/32767          0/262136   ( 0.0%)
@@ -88,15 +88,15 @@ leaves              0/32760          0/917280   ( 0.0%)
 marksurfaces        0/65535          0/131070   ( 0.0%)
 surfedges           0/512000         0/2048000  ( 0.0%)
 edges               0/256000         0/1024000  ( 0.0%)
-texdata          [variable]      16364/33554432 ( 0.0%)
+texdata          [variable]      16408/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]     186751/2097152  ( 8.9%)
+entdata          [variable]     194203/2097152  ( 9.3%)
 * AllocBlock        0/64             0/0        ( 0.0%)
-296 textures referenced
-=== Total BSP file data space used: 1302955 bytes ===
+297 textures referenced
+=== Total BSP file data space used: 1323931 bytes ===
 Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;deepmind_windawz.wad;zhlt.wad;halflife.wad;liquids.wad;"
-2.42 seconds elapsed
+2.53 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -137,43 +137,44 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5500...6000...6500...7000...7500...8000...8500...9000...9500...10000...10500...11000...11398 (0.58 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5500...6000...6500...7000...7500...8000...8500...9000...9500...10000...10500...11000...11397 (0.67 seconds)
 BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of04.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5032 (0.30 seconds)
-SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...4000...4500...4534 (0.27 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5500...5527 (0.35 seconds)
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5032 (0.33 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...4000...4500...4534 (0.29 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5500...5532 (0.36 seconds)
 Warning: No visible brushes in solid entity: model 117 (entity: classname "trigger_once", origin "", targetname "", range (200,352,128) - (208,480,240))
-Reduced 24937 clipnodes to 23343
-Reduced 7773 texinfos to 7193
-Reduced 296 texdatas to 291 (16364 bytes to 13920)
-Reduced 39446 planes to 12094
+Warning: No visible brushes in solid entity: model 317 (entity: classname "func_wall_toggle", origin "", targetname "boss_escape", range (-224,256,896) - (32,260,992))
+Reduced 25430 clipnodes to 23819
+Reduced 7798 texinfos to 7216
+Reduced 297 texdatas to 292 (16408 bytes to 13964)
+Reduced 40070 planes to 12277
 FixBrinks:
-Increased 23343 clipnodes to 23549.
+Increased 23819 clipnodes to 24037.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models            318/512        20352/32768    (62.1%)
-planes          12094/32768     241880/655360   (36.9%)
-vertexes        33375/65535     400500/786420   (50.9%)
-nodes           14077/32767     337848/786408   (43.0%)
-texinfos         7193/32767     287720/1310680  (22.0%)
-faces           21327/65535     426540/1310700  (32.5%)
-* worldfaces    17877/32768          0/0        (54.6%)
-clipnodes       23549/32767     188392/262136   (71.9%)
-leaves           9365/32760     262220/917280   (28.6%)
+models            328/512        20992/32768    (64.1%)
+planes          12277/32768     245540/655360   (37.5%)
+vertexes        33465/65535     401580/786420   (51.1%)
+nodes           14165/32767     339960/786408   (43.2%)
+texinfos         7216/32767     288640/1310680  (22.0%)
+faces           21385/65535     427700/1310700  (32.6%)
+* worldfaces    17876/32768          0/0        (54.6%)
+clipnodes       24037/32767     192296/262136   (73.4%)
+leaves           9442/32760     264376/917280   (28.8%)
 * worldleaves    6452/8192           0/0        (78.8%)
-marksurfaces    31542/65535      63084/131070   (48.1%)
-surfedges       98345/512000    393380/2048000  (19.2%)
-edges           55524/256000    222096/1024000  (21.7%)
-texdata          [variable]      13920/33554432 ( 0.0%)
+marksurfaces    31642/65535      63284/131070   (48.3%)
+surfedges       98572/512000    394288/2048000  (19.3%)
+edges           55667/256000    222668/1024000  (21.7%)
+texdata          [variable]      13964/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]     186751/2097152  ( 8.9%)
+entdata          [variable]     194203/2097152  ( 9.3%)
 * AllocBlock       45/64             0/0        (70.3%)
-291 textures referenced
-=== Total BSP file data space used: 3044683 bytes ===
+292 textures referenced
+=== Total BSP file data space used: 3069491 bytes ===
 Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;deepmind_windawz.wad;zhlt.wad;halflife.wad;liquids.wad;"
-5.58 seconds elapsed
+6.14 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -209,36 +210,36 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.04 seconds)
+ (0.08 seconds)
 LeafThread:
- (0.29 seconds)
+ (0.63 seconds)
 average leafs visible: 129
-g_visdatasize:126993  compressed from 29463
+g_visdatasize:126816  compressed from 29463
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models            318/512        20352/32768    (62.1%)
-planes          12094/32768     241880/655360   (36.9%)
-vertexes        33375/65535     400500/786420   (50.9%)
-nodes           14077/32767     337848/786408   (43.0%)
-texinfos         7193/32767     287720/1310680  (22.0%)
-faces           21327/65535     426540/1310700  (32.5%)
-* worldfaces    17877/32768          0/0        (54.6%)
-clipnodes       23549/32767     188392/262136   (71.9%)
-leaves           9365/32760     262220/917280   (28.6%)
+models            328/512        20992/32768    (64.1%)
+planes          12277/32768     245540/655360   (37.5%)
+vertexes        33465/65535     401580/786420   (51.1%)
+nodes           14165/32767     339960/786408   (43.2%)
+texinfos         7216/32767     288640/1310680  (22.0%)
+faces           21385/65535     427700/1310700  (32.6%)
+* worldfaces    17876/32768          0/0        (54.6%)
+clipnodes       24037/32767     192296/262136   (73.4%)
+leaves           9442/32760     264376/917280   (28.8%)
 * worldleaves    6452/8192           0/0        (78.8%)
-marksurfaces    31542/65535      63084/131070   (48.1%)
-surfedges       98345/512000    393380/2048000  (19.2%)
-edges           55524/256000    222096/1024000  (21.7%)
-texdata          [variable]      13920/33554432 ( 0.0%)
+marksurfaces    31642/65535      63284/131070   (48.3%)
+surfedges       98572/512000    394288/2048000  (19.3%)
+edges           55667/256000    222668/1024000  (21.7%)
+texdata          [variable]      13964/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
-visdata          [variable]     126993/8388608  ( 1.5%)
-entdata          [variable]     186751/2097152  ( 8.9%)
+visdata          [variable]     126816/8388608  ( 1.5%)
+entdata          [variable]     194203/2097152  ( 9.3%)
 * AllocBlock       45/64             0/0        (70.3%)
-291 textures referenced
-=== Total BSP file data space used: 3171676 bytes ===
+292 textures referenced
+=== Total BSP file data space used: 3196307 bytes ===
 Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;deepmind_windawz.wad;zhlt.wad;halflife.wad;liquids.wad;"
-0.45 seconds elapsed
+0.84 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -322,75 +323,75 @@ wall bleeding fix    [                on ] [                on ]
 
 Load Textures:
 Using Wadfile: C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\of04.wa_
-291 textures referenced
+292 textures referenced
 Reading texlights from 'C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\lights.rad'
 0 opaque models
 0 opaque faces
-21327 faces
-Create Patches : 53963 base patches
-353810 square feet [50948728.00 square inches]
+21385 faces
+Create Patches : 54078 base patches
+354274 square feet [51015460.00 square inches]
 3701 direct lights and 16386 fast direct lights
 6 light styles
 
 FindFacePositions:
- (1.74 seconds)
+ (2.19 seconds)
 BuildFacelights:
- (50.04 seconds)
+ (51.72 seconds)
 BuildVisLeafs:
- (17.78 seconds)
-visibility matrix   :  31.3 megs
+ (19.28 seconds)
+visibility matrix   :  31.5 megs
 MakeScales:
- (24.26 seconds)
-Transfer Lists :    62245168 :    62.25M transfers
-       Indices :    64184080 :    61.21M bytes
-          Data :   124647806 :   118.87M bytes
+ (27.07 seconds)
+Transfer Lists :    62513293 :    62.51M transfers
+       Indices :    64453348 :    61.47M bytes
+          Data :   125184395 :   119.39M bytes
 Bounce 1 GatherLight:
- (1.09 seconds)
+ (0.85 seconds)
 Bounce 2 GatherLight:
- (1.16 seconds)
+ (0.86 seconds)
 Bounce 3 GatherLight:
- (1.15 seconds)
+ (0.88 seconds)
 Bounce 4 GatherLight:
- (1.15 seconds)
+ (0.93 seconds)
 Bounce 5 GatherLight:
- (1.13 seconds)
+ (0.94 seconds)
 Bounce 6 GatherLight:
- (0.95 seconds)
+ (1.04 seconds)
 Bounce 7 GatherLight:
  (0.97 seconds)
 Bounce 8 GatherLight:
- (0.95 seconds)
+ (0.91 seconds)
 CreateTriangulations:
- (0.39 seconds)
+ (0.41 seconds)
 AddPatchLights:
- (2.32 seconds)
+ (2.50 seconds)
 FinalLightFace:
- (0.36 seconds)
+ (0.33 seconds)
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models            318/512        20352/32768    (62.1%)
-planes          12094/32768     241880/655360   (36.9%)
-vertexes        33375/65535     400500/786420   (50.9%)
-nodes           14077/32767     337848/786408   (43.0%)
-texinfos         7193/32767     287720/1310680  (22.0%)
-faces           21327/65535     426540/1310700  (32.5%)
-* worldfaces    17877/32768          0/0        (54.6%)
-clipnodes       23549/32767     188392/262136   (71.9%)
-leaves           9365/32760     262220/917280   (28.6%)
+models            328/512        20992/32768    (64.1%)
+planes          12277/32768     245540/655360   (37.5%)
+vertexes        33465/65535     401580/786420   (51.1%)
+nodes           14165/32767     339960/786408   (43.2%)
+texinfos         7216/32767     288640/1310680  (22.0%)
+faces           21385/65535     427700/1310700  (32.6%)
+* worldfaces    17876/32768          0/0        (54.6%)
+clipnodes       24037/32767     192296/262136   (73.4%)
+leaves           9442/32760     264376/917280   (28.8%)
 * worldleaves    6452/8192           0/0        (78.8%)
-marksurfaces    31542/65535      63084/131070   (48.1%)
-surfedges       98345/512000    393380/2048000  (19.2%)
-edges           55524/256000    222096/1024000  (21.7%)
-texdata          [variable]      13920/33554432 ( 0.0%)
-lightdata        [variable]    2312235/50331648 ( 4.6%)
-visdata          [variable]     126993/8388608  ( 1.5%)
-entdata          [variable]     186751/2097152  ( 8.9%)
+marksurfaces    31642/65535      63284/131070   (48.3%)
+surfedges       98572/512000    394288/2048000  (19.3%)
+edges           55667/256000    222668/1024000  (21.7%)
+texdata          [variable]      13964/33554432 ( 0.0%)
+lightdata        [variable]    2316654/50331648 ( 4.6%)
+visdata          [variable]     126816/8388608  ( 1.5%)
+entdata          [variable]     194203/2097152  ( 9.3%)
 * AllocBlock       45/64             0/0        (70.3%)
-291 textures referenced
-=== Total BSP file data space used: 5483911 bytes ===
+292 textures referenced
+=== Total BSP file data space used: 5512961 bytes ===
 Wad files required to run the map: "czcs_office.wad;czde_fastline.wad;deepmind2_ny.wad;deepmind_windawz.wad;zhlt.wad;halflife.wad;liquids.wad;"
-106.65 seconds elapsed [1m 46s]
+112.31 seconds elapsed [1m 52s]
 
 -----   END   hlrad -----
 
