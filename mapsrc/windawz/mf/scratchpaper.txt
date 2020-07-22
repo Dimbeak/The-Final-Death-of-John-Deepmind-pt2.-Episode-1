@@ -1,0 +1,8 @@
+map 01. warehouse & shipping
+map 02. production & conveyors
+map 03. the nuclear reactor
+
+VEND_BLUE        0 196 255 1500
+VEND_GREEN        0 186 31 3000
+VEND_ORANGE        255 170 0 1500
+VEND_RED        255 0 0 3000
