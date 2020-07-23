@@ -1,4 +1,6 @@
-CSG:
+CSG: -cliptype precise -wadautodetect
 BSP:
 VIS:
-RAD:
+RAD: -estimate -chart -smooth 75 -texlightgap 10
+
+Don't forget your lights.rad.
