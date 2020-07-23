@@ -1,0 +1,4 @@
+CSG: -cliptype precise -wadautodetect
+BSP:
+VIS:
+RAD: -texreflectscale 2.0 -smooth 70 -chart
