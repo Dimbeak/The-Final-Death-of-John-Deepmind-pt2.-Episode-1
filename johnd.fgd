@@ -1,0 +1,46 @@
+// 
+// The Final Death of John Deepmind, Part 2: Episode 1 - The Fall of New York
+// FGD extension file for level designers
+// Version 1.0 (22nd July 2020)
+//
+// Credits: Admer456 (admer456@gmail.com) - initial FGD
+//
+
+// NOTE: Do not write changelogs in the FGD!
+// Git exists for a reason
+
+@BaseClass = Targetname 
+[ 
+	targetname(target_source) : "Name"
+]
+
+@PointClass base(Targetname) = ambient_mp3 : "MP3 playing entity"
+[
+	songName(string) : "Song name" : "media/example.mp3"
+	songVolume(string) : "Song volume (not working)" : "1.0"
+
+	spawnflags(Flags) = 
+	[
+		1: "Loop" : 0
+	]
+]
+
+@PointClass base(Targetname) = ambient_2d : "2D sound entity"
+[
+	soundName(sound) : "WAV name" : "sound/example.wav"
+	soundVolume(string) : "Volume (0.0-1.0)" : "1.0"
+	
+	soundChannel(choices) : "Channel to play sound in" : 0 =
+	[
+		0: "Auto"
+		1: "Weapon"
+		2: "Voice"
+		3: "Item"
+		4: "Body"
+		5: "Stream"
+		6: "Static"
+	]
+
+	// 255 is the maximum
+	soundPitch(integer) : "Pitch" : 100
+]
