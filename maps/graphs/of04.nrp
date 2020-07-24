@@ -395,7 +395,7 @@ Node #  12:
    9
   10
   13
-  14  Entity on connection: func_breakable, name:   Model: *160
+  14  Entity on connection: func_breakable, name:   Model: *145
 ----------------------------------------------------------------------------
 Node #  13:
 
@@ -408,7 +408,7 @@ Node #  14:
 
   10
   11
-  12  Entity on connection: func_breakable, name:   Model: *160
+  12  Entity on connection: func_breakable, name:   Model: *145
   15
 ----------------------------------------------------------------------------
 Node #  15:
@@ -417,14 +417,14 @@ Node #  15:
    9
   11
   14
-  16  Entity on connection: func_breakable, name:   Model: *155
+  16  Entity on connection: func_breakable, name:   Model: *142
 ----------------------------------------------------------------------------
 Node #  16:
 
    8
    9
   10
-  15  Entity on connection: func_breakable, name:   Model: *155
+  15  Entity on connection: func_breakable, name:   Model: *142
 ----------------------------------------------------------------------------
 Node #  17:
 
@@ -475,13 +475,13 @@ Node #  24:
 ----------------------------------------------------------------------------
 Node #  25:
 
-  26  Entity on connection: func_wall, name:   Model: *251
+  26  Entity on connection: func_wall, name:   Model: *230
   27
   29
 ----------------------------------------------------------------------------
 Node #  26:
 
-  25  Entity on connection: func_wall, name:   Model: *251
+  25  Entity on connection: func_wall, name:   Model: *230
   27
 ----------------------------------------------------------------------------
 Node #  27:
@@ -490,8 +490,8 @@ Node #  27:
   26
   28
   29
-  30  Entity on connection: func_door, name: elev_door  Model: *248
-  31  Entity on connection: func_door, name: elev_door  Model: *248
+  30  Entity on connection: func_door, name: elev_door  Model: *227
+  31  Entity on connection: func_door, name: elev_door  Model: *227
 ----------------------------------------------------------------------------
 Node #  28:
 
@@ -503,19 +503,19 @@ Node #  29:
   25
   27
   28
-  30  Entity on connection: func_door, name: elev_door  Model: *247
-  31  Entity on connection: func_door, name: elev_door  Model: *247
+  30  Entity on connection: func_door, name: elev_door  Model: *226
+  31  Entity on connection: func_door, name: elev_door  Model: *226
 ----------------------------------------------------------------------------
 Node #  30:
 
-  27  Entity on connection: func_door, name: elev_door  Model: *248
-  29  Entity on connection: func_door, name: elev_door  Model: *247
+  27  Entity on connection: func_door, name: elev_door  Model: *227
+  29  Entity on connection: func_door, name: elev_door  Model: *226
   31
 ----------------------------------------------------------------------------
 Node #  31:
 
-  27  Entity on connection: func_door, name: elev_door  Model: *248
-  29  Entity on connection: func_door, name: elev_door  Model: *247
+  27  Entity on connection: func_door, name: elev_door  Model: *227
+  29  Entity on connection: func_door, name: elev_door  Model: *226
   30
 ----------------------------------------------------------------------------
 Node #  32:
@@ -545,7 +545,7 @@ Node #  34:
   35
   37
   38
-  39  Entity on connection: func_breakable, name:   Model: *305
+  39  Entity on connection: func_breakable, name:   Model: *283
   41
   43
   45
@@ -554,9 +554,9 @@ Node #  35:
 
   34
   37
-  38  Entity on connection: func_breakable, name:   Model: *305
+  38  Entity on connection: func_breakable, name:   Model: *283
   39
-  41  Entity on connection: func_breakable, name: boss_chair  Model: *266
+  41  Entity on connection: func_breakable, name: boss_chair  Model: *244
   43
 ----------------------------------------------------------------------------
 Node #  36:
@@ -584,23 +584,23 @@ Node #  38:
 
   33
   34
-  35  Entity on connection: func_breakable, name:   Model: *305
+  35  Entity on connection: func_breakable, name:   Model: *283
   36
   37
   39
   41
-  43  Entity on connection: func_breakable, name:   Model: *301
+  43  Entity on connection: func_breakable, name:   Model: *279
 ----------------------------------------------------------------------------
 Node #  39:
 
   33
-  34  Entity on connection: func_breakable, name:   Model: *305
+  34  Entity on connection: func_breakable, name:   Model: *283
   35
   36
   37
   38
   40
-  41  Entity on connection: func_breakable, name: boss_chair  Model: *266
+  41  Entity on connection: func_breakable, name: boss_chair  Model: *244
   44
 ----------------------------------------------------------------------------
 Node #  40:
@@ -616,9 +616,9 @@ Node #  40:
 Node #  41:
 
   34
-  35  Entity on connection: func_breakable, name: boss_chair  Model: *266
+  35  Entity on connection: func_breakable, name: boss_chair  Model: *244
   38
-  39  Entity on connection: func_breakable, name: boss_chair  Model: *266
+  39  Entity on connection: func_breakable, name: boss_chair  Model: *244
   40
   42
   43
@@ -639,7 +639,7 @@ Node #  43:
   35
   36
   37
-  38  Entity on connection: func_breakable, name:   Model: *301
+  38  Entity on connection: func_breakable, name:   Model: *279
   41
   42
 ----------------------------------------------------------------------------
@@ -683,406 +683,406 @@ Walk Rejection:
 -------------------------------------------------------------------------------
 Node    0:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node   2 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 32
+NODE_LARGE_HULL step 32
+NODE_SMALL_HULL step 1088
 Rejected Node   4 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node   7 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 128
 Rejected Node   5 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    1:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 784
+NODE_SMALL_HULL step 784
 Rejected Node   4 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 528
 Rejected Node   6 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    2:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node   0 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 128
 Rejected Node  17 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    3:
 
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 576
+NODE_LARGE_HULL step 192
+NODE_LARGE_HULL step 432
+NODE_SMALL_HULL step 176
 Rejected Node   5 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 80
+NODE_SMALL_HULL step 64
 Rejected Node   7 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    4:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 144
+NODE_SMALL_HULL step 160
 Rejected Node   1 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 432
 Rejected Node  19 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 160
+NODE_LARGE_HULL step 160
+NODE_LARGE_HULL step 352
+NODE_SMALL_HULL step 384
 Rejected Node   6 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    5:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node   0 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 176
 Rejected Node  18 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 128
 Rejected Node   3 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 256
 -------------------------------------------------------------------------------
 Node    6:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 192
 Rejected Node   1 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 592
 Rejected Node   4 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    7:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 48
 Rejected Node   0 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 64
 Rejected Node  18 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 80
 Rejected Node   3 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    8:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node  10 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 128
 Rejected Node  11 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 576
 Rejected Node  15 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node  12 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    9:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 160
+NODE_SMALL_HULL step 160
 Rejected Node  12 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 144
+NODE_SMALL_HULL step 944
 Rejected Node  15 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   10:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node   8 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 80
 Rejected Node  16 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 64
 Rejected Node  14 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 432
+NODE_LARGE_HULL step 400
 -------------------------------------------------------------------------------
 Node   11:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 208
 Rejected Node   8 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 976
+NODE_SMALL_HULL step 112
 Rejected Node  13 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0
 -------------------------------------------------------------------------------
 Node   12:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 192
 Rejected Node   8 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 240
 Rejected Node  14 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 496
 Rejected Node   9 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 336
 -------------------------------------------------------------------------------
 Node   13:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 1088
 Rejected Node   9 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  11 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   14:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 160
 Rejected Node  10 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 112
+NODE_SMALL_HULL step 960
 Rejected Node  12 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   15:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0
 Rejected Node   8 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0
 Rejected Node  16 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 0
+NODE_SMALL_HULL step 0
 Rejected Node   9 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0
 -------------------------------------------------------------------------------
 Node   16:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 160
 Rejected Node  10 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 224
 Rejected Node  15 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   17:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node   2 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 672
 -------------------------------------------------------------------------------
 Node   18:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 32
+NODE_SMALL_HULL step 208
 Rejected Node   5 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 48
+NODE_SMALL_HULL step 320
 Rejected Node   7 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   19:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 16
 Rejected Node   4 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0
 -------------------------------------------------------------------------------
 Node   20:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 432
 Rejected Node  23 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 224
 -------------------------------------------------------------------------------
 Node   21:
 
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 224
 -------------------------------------------------------------------------------
 Node   22:
 
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 32
 -------------------------------------------------------------------------------
 Node   23:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  20 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 112
 -------------------------------------------------------------------------------
 Node   24:
 
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 144
+NODE_LARGE_HULL step 64
 -------------------------------------------------------------------------------
 Node   25:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 336
 Rejected Node  26 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   26:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 32
 Rejected Node  25 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 32
 Rejected Node  27 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   27:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 240
 Rejected Node  26 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node  31 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node  30 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 112
+NODE_SMALL_HULL step 144
 Rejected Node  28 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   28:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  27 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 112
 Rejected Node  29 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   29:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 16
 Rejected Node  28 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 144
 Rejected Node  31 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 144
 Rejected Node  30 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   30:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0
 Rejected Node  27 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0
 Rejected Node  29 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   31:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0
 Rejected Node  27 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0
 Rejected Node  29 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   32:
 
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 128
+NODE_LARGE_HULL step 80
+NODE_SMALL_HULL step 64
 Rejected Node  44 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 64
 Rejected Node  46 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   33:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 144
+NODE_SMALL_HULL step 192
 Rejected Node  46 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   34:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 96
+NODE_SMALL_HULL step 112
 Rejected Node  38 - Unreachable by Any Hull
-NODE_HUMAN_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_HUMAN_HULL step 112
+NODE_SMALL_HULL step 144
 Rejected Node  39 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 128
 Rejected Node  41 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   35:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 352
 Rejected Node  41 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   36:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 16
 Rejected Node  37 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  45 - Unreachable by Any Hull
-NODE_HUMAN_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
+NODE_HUMAN_HULL step 240
+NODE_LARGE_HULL step 32
 -------------------------------------------------------------------------------
 Node   37:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 128
+NODE_SMALL_HULL step 144
 Rejected Node  36 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 112
+NODE_SMALL_HULL step 192
 Rejected Node  40 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   38:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 128
 Rejected Node  34 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 80
 Rejected Node  43 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 32
 -------------------------------------------------------------------------------
 Node   39:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 16
+NODE_SMALL_HULL step 224
 Rejected Node  34 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 32
 Rejected Node  44 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 32
 Rejected Node  41 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0
+NODE_LARGE_HULL step 16
+NODE_LARGE_HULL step 48
 -------------------------------------------------------------------------------
 Node   40:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 48
 Rejected Node  37 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 16
 Rejected Node  46 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 16
 Rejected Node  45 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 16
+NODE_LARGE_HULL step 80
+NODE_SMALL_HULL step 96
 Rejected Node  42 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   41:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 400
 Rejected Node  34 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 160
 Rejected Node  46 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 160
 Rejected Node  45 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  35 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 96
+NODE_SMALL_HULL step 112
 Rejected Node  39 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   42:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 64
 Rejected Node  40 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 64
 Rejected Node  44 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   43:
 
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 544
+NODE_SMALL_HULL step 144
 Rejected Node  36 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  38 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   44:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 176
 Rejected Node  32 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 48
 Rejected Node  39 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 32
+NODE_SMALL_HULL step 176
 Rejected Node  42 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   45:
 
-NODE_HUMAN_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
+NODE_HUMAN_HULL step 256
+NODE_SMALL_HULL step 48
 Rejected Node  36 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 176
 Rejected Node  40 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 176
 Rejected Node  41 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   46:
 
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  32 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 64
 Rejected Node  33 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 96
 Rejected Node  40 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 64
 -------------------------------------------------------------------------------
 
 
