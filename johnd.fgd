@@ -14,6 +14,24 @@
 	targetname(target_source) : "Name"
 ]
 
+@BaseClass = Target 
+[ 
+	target(target_destination) : "Target" 
+]
+
+@BaseClass = Master
+[
+	master(string) : "Master"
+]
+
+@BaseClass base(Target) = Targetx 
+[
+	delay(string) : "Delay before trigger" : "0"
+	killtarget(target_destination) : "KillTarget"
+]
+
+
+
 @PointClass base(Targetname) = ambient_mp3 : "MP3 playing entity"
 [
 	songName(string) : "Song name" : "media/example.mp3"
@@ -43,4 +61,42 @@
 
 	// 255 is the maximum
 	soundPitch(integer) : "Pitch" : 100
+]
+
+@PointClass base(Targetname, Targetx, Master) = trigger_ifrelay : "Trigger IfRelay.
+When triggered, checks if all entities that have the specified targetnames are in
+the state specified by the mapper. Entities to check are added in a way similar to
+adding targets to a multi_manager.
+Keyvalue format: <targetname> : <number: 0 (OFF) or 1 (ON)>."
+[
+	
+	m_iszAltTarget(string) : "Target if locked by master"
+	spawnflags(flags) =
+	[
+		1: "Remove On fire" : 0
+		//NEW 0.4
+		//* If you're trying to work out what's going wrong with your level,
+		//* try ticking here and the relay will tell you when it triggers, etc.
+		//*   Here's a useful trick: make a trigger_relay with this field ticked,
+		//* and give it the same name as an entity that you're interested in.
+		//* The relay will then notify you whenever that entity gets triggered.
+		2: "Debug Mode" : 0
+	]
+	//NEW 0.4
+	triggerstate(choices) : "Trigger to send" : 2 = 
+	[
+		0: "Off"
+		1: "On"
+		2: "Toggle"
+		4: "Kill"
+		5: "Same as input"
+		//* I.e. when triggered ON, send OFF. And vice versa.
+		6: "Opposite of input"
+		//* Setting this will cause the target momentary door to move to a particular position.
+		7: "Ratio (momentary doors)"
+	]
+	//* Use this in combination with usetype Ratio, to trigger momentary doors.
+	//* For example, sending 1.0 tells them to go fully
+	//* open, 0.0 fully closed, and 0.5 half-way.
+	message(string) : "Set ratio (blank = no change) [LR]"
 ]
