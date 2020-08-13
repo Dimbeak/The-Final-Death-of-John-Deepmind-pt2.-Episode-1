@@ -1,43 +1,49 @@
 DEEPMIND 2 - TO DO
 
 LEVEL DESIGN
-- sew02            Finish by 15th of August
-- sew03            Finish by 22nd of August
-- drm01            Finish by 29th of August
-- drm02            Finish by 5th of September
-- drm03            Finish by 12th of September
-- lab01            Finish by 19th of September
-- lab02            Finish by 26th of September
-- lobby            Finish by 28th of September
-- twr01            Finish by 3rd of October
-- twr02            Finish by 10th of October
+- sew02                                     Finish by 15th of August
+- sew03                                     Finish by 22nd of August
+- drm01                                     Finish by 29th of August
+- drm02                                     Finish by 5th of September
+- drm03                                     Finish by 12th of September
+- lab01                                     Finish by 19th of September
+- lab02                                     Finish by 26th of September
+- lobby                                     Finish by 28th of September
+- twr01                                     Finish by 3rd of October
+- twr02                                     Finish by 10th of October
+
+- mf01                                      Finish by 21st of August
 
 MODELING
-- M4 clip addition        Finish by 15th of August
-- revolver reskin        Finish by 15th of August
-- construction zombie        Finish by 29th of August
+- M4 clip addition                          Finish by 15th of August
+- revolver reskin                           Finish by 15th of August
+- construction zombie                       Finish by 29th of August
+
+CODING
+- Audio log system                          Finish by 30th of August
+- "Fire on player death" logic              Finish by 15th of August
 
 MUSIC
-- Martin Boss Fight        - Finish by 5th of September
-- Scary sewer music        - Finish by 12th of September
-- Manufacturing center        - Finish by 19th of September
-- lab                - Finish by 26th of September
-- The Big Twist            - Finish by 28th of September
-- The Final Fight        - Finish by 3rd of October
-- The Final Decision        - Finish by 10th of October
+- Martin Boss Fight                         Finish by 5th of September
+- Scary sewer music                         Finish by 12th of September
+- Manufacturing center                      Finish by 19th of September
+- lab                                       Finish by 26th of September
+- The Big Twist                             Finish by 28th of September
+- The Final Fight                           Finish by 3rd of October
+- The Final Decision                        Finish by 10th of October
 
 MARKETING
-- ModDB Page            - Finish by 29th of September
-- Twitter            - Finish by 29th of September
+- ModDB Page                                Finish by 29th of September
+- Twitter                                   Finish by 29th of September
 - Deepmind Book(?)
 
 TELEPORTER HOLOCAUST
-- Bugtest map            - Finish by 13th of October
-- Model swap soldiers        - Finish by 13th of October
-- Re-record dialog        - Finish by 13th of October
-- Add audio logs        - Finish by 13th of October
+- Bugtest map                               Finish by 13th of October
+- Model swap soldiers                       Finish by 13th of October
+- Re-record dialog                          Finish by 13th of October
+- Add audio logs                            Finish by 13th of October
 
 WATER WORLD HELL
-- Replace Charlotte voice acting    - Finish by 17th of October
-- Add audio logs            - Finish by 17th of October
-- Bugfix wet03                - Finish by 17th of October
+- Replace Charlotte voice acting            Finish by 17th of October
+- Add audio logs                            Finish by 17th of October
+- Bugfix wet03                              Finish by 17th of October
