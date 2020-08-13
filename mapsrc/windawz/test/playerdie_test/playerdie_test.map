@@ -1,0 +1,137 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"newunit" "0"
+"gametitle" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"WaveHeight" "0.0"
+"sounds" "1"
+"mapversion" "220"
+"wad" "\Games\Half-Life\valve\halflife.wad;\Games\Half-Life\valve\liquids.wad;\Games\Half-Life\valve\xeno.wad;\Program Files\J.A.C.K\tools\zhlt.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\czcs_office.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\czde_fastline.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\winfades.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\deepmind_windawz.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\decals.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\khr_prototype_hl.wad;\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\deepmind2_ny.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 256 160 ) ( 288 256 0 ) ( 288 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 288 -256 0 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 0 ) ( 256 -256 0 ) ( 288 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 288 -256 160 ) ( 256 -256 160 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -288 -256 160 ) ( -288 -256 0 ) ( -288 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 160 ) ( -256 256 0 ) ( -256 -256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 256 160 ) ( -288 256 0 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( -288 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 256 0 ) ( -288 -256 0 ) ( -256 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 -256 160 ) ( -288 -256 160 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 256 160 ) ( -256 256 0 ) ( -256 288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 288 160 ) ( 256 288 0 ) ( 256 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 288 160 ) ( -256 288 0 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( -256 256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 288 0 ) ( -256 256 0 ) ( 256 288 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 160 ) ( -256 256 160 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 -288 160 ) ( -256 -288 0 ) ( -256 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 -288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( 256 -256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( 256 -288 0 ) ( -256 -288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -288 0 ) ( 256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 -288 160 ) ( -256 -288 160 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 -256 192 ) ( -256 -256 160 ) ( -256 256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 192 ) ( 256 256 160 ) ( 256 -256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 192 ) ( -256 256 160 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( 256 -256 160 ) ( -256 -256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 160 ) ( -256 -256 160 ) ( 256 256 160 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 -256 192 ) ( -256 -256 192 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 -256 0 ) ( -256 -256 -32 ) ( -256 256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 0 ) ( 256 256 -32 ) ( 256 -256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 0 ) ( -256 256 -32 ) ( 256 256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( 256 -256 -32 ) ( -256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 -32 ) ( -256 -256 -32 ) ( 256 256 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 -256 0 ) ( -256 -256 0 ) ( 256 256 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-192 0 37"
+}
+{
+"classname" "light"
+"_falloff" "2"
+"m_iTurnOffStyle" "0"
+"m_iTurnOffTime" "0"
+"m_iTurnOnStyle" "0"
+"m_iTurnOnTime" "0"
+"m_iOffStyle" "0"
+"m_iOnStyle" "0"
+"style" "0"
+"_light" "255 255 128 200"
+"light" "255 255 128 200"
+"origin" "0 0 128"
+}
+{
+"classname" "light"
+"_falloff" "2"
+"m_iTurnOffStyle" "0"
+"m_iTurnOffTime" "0"
+"m_iTurnOnStyle" "0"
+"m_iTurnOnTime" "0"
+"m_iOffStyle" "0"
+"m_iOnStyle" "0"
+"style" "0"
+"_light" "255 101 101 80"
+"origin" "-80 192 32"
+}
+{
+"classname" "trigger_hurt"
+"cangib" "0"
+"damagetype" "0"
+"delay" "0"
+"dmg" "80"
+{
+( -32 224 64 ) ( -32 224 0 ) ( -32 160 64 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 160 64 ) ( -128 160 0 ) ( -128 224 64 ) AAATRIGGER [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 160 64 ) ( -32 160 0 ) ( -128 160 64 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 224 64 ) ( -128 224 0 ) ( -32 224 64 ) AAATRIGGER [ -1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 224 0 ) ( -128 160 0 ) ( -32 224 0 ) AAATRIGGER [ -1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( -32 160 64 ) ( -128 160 64 ) ( -32 224 64 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "ambient_generic"
+"spawnflags" "52"
+"cspinup" "0"
+"lfomodvol" "0"
+"lfomodpitch" "0"
+"lforate" "0"
+"lfotype" "0"
+"spindown" "0"
+"spinup" "0"
+"pitchstart" "100"
+"pitch" "100"
+"fadeout" "0"
+"fadein" "0"
+"volstart" "0"
+"preset" "0"
+"channel" "6"
+"health" "10"
+"message" "buttons/bell1.wav"
+"targetname" "game_playerdie"
+"origin" "80 97 112"
+}
+{
+"classname" "watcher"
+"m_fLogic" "0"
+"target" "signal"
+"m_iszWatch" "*player"
+"origin" "80 33 48"
+}
