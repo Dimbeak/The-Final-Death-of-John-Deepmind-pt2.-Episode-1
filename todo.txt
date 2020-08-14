@@ -12,7 +12,7 @@ LEVEL DESIGN
 - twr01                                     Finish by 3rd of October
 - twr02                                     Finish by 10th of October
 - mf01                                      Finish by 25th of August
-- mf02                                      Finish by 10th of October
+- mf02                                      Finish by 10th of September
 
 MODELING
 - M4 sight retexture                        Finish by 16th of August
@@ -22,7 +22,8 @@ MODELING
 
 CODING
 - Audio log system                          Finish by 30th of August
-- "Fire on player death" logic              Finish by 15th of August
+- Save/restore implementation for
+  ambient_2d and ambient_mp3                Finish by 16th of August
 
 MUSIC
 - Martin Boss Fight                         Finish by 5th of September
