@@ -11,10 +11,11 @@ LEVEL DESIGN
 - lobby                                     Finish by 28th of September
 - twr01                                     Finish by 3rd of October
 - twr02                                     Finish by 10th of October
-
-- mf01                                      Finish by 21st of August
+- mf01                                      Finish by 25th of August
+- mf02                                      Finish by 10th of October
 
 MODELING
+- M4 sight retexture                        Finish by 16th of August
 - M4 clip addition                          Finish by 15th of August
 - revolver reskin                           Finish by 15th of August
 - construction zombie                       Finish by 29th of August
