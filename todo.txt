@@ -1,7 +1,6 @@
 DEEPMIND 2 - TO DO
 
 LEVEL DESIGN
-- sew02                                     Finish by 15th of August
 - sew03                                     Finish by 22nd of August
 - drm01                                     Finish by 29th of August
 - drm02                                     Finish by 5th of September
