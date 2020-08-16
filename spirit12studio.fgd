@@ -782,6 +782,8 @@
 		7: "Metal Lock Stop (7)"
 		8: "Snappy Metal Stop (8)"
 	]
+    custommovesnd(sound) : "Custom Move Sound"
+    customstopsnd(sound) : "Custom Stop Sound"
 	//* Setting wait to -1 also prevents the door from reversing when it comes into
 	//* contact with the player, as seen on the bunker door in Crossfire.
 	//* This setting isn't recommended if the door is using MoveWith.
@@ -2440,6 +2442,7 @@
 		//* buttons/lightswitch2.wav
 		14: "Lightswitch"
 	]
+    sounds_custom(sound) : "Custom sounds"
 	wait(choices) : "Delay before Reset" : 0 =
 	[
 		-1 : "Stays pressed (-1)"
@@ -2671,6 +2674,7 @@
 		24: "Clean Ratchet (4)"
 		25: "Gas Clunk (5)"
 	]
+    sounds_custom(sound) : "Custom sounds"
 	wait(choices) : "Delay before reset" : 3 =
 	[
 		-1: "Stays pressed"
