@@ -15,8 +15,6 @@ LEVEL DESIGN
 
 MODELING
 - M4 sight retexture                        Finish by 16th of August
-- M4 clip addition                          Finish by 15th of August
-- revolver reskin                           Finish by 15th of August
 - construction zombie                       Finish by 29th of August
 
 CODING
