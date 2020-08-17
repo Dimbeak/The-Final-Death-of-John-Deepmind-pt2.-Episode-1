@@ -46,32 +46,32 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.38 seconds)
+ (0.46 seconds)
 CSGBrush:
- (1.01 seconds)
+ (1.08 seconds)
 
 added 18 additional animating textures.
 Including Wadfile: \Program Files\J.A.C.K\tools\zhlt.wad
- - Contains 2 used textures, 0.85 percent of map (19 textures in wad)
+ - Contains 2 used textures, 0.81 percent of map (19 textures in wad)
 Using Wadfile: \Games\Half-Life\valve\halflife.wad
- - Contains 96 used textures, 40.68 percent of map (3116 textures in wad)
+ - Contains 100 used textures, 40.65 percent of map (3116 textures in wad)
 Using Wadfile: \Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\czcs_office.wad
- - Contains 11 used textures, 4.66 percent of map (305 textures in wad)
+ - Contains 11 used textures, 4.47 percent of map (305 textures in wad)
 Using Wadfile: \Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\czde_fastline.wad
- - Contains 17 used textures, 7.20 percent of map (158 textures in wad)
+ - Contains 17 used textures, 6.91 percent of map (158 textures in wad)
 Using Wadfile: \Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\winfades.wad
- - Contains 1 used texture, 0.42 percent of map (18 textures in wad)
+ - Contains 1 used texture, 0.41 percent of map (18 textures in wad)
 Using Wadfile: \Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\deepmind_windawz.wad
- - Contains 91 used textures, 38.56 percent of map (183 textures in wad)
+ - Contains 97 used textures, 39.43 percent of map (189 textures in wad)
 Using Wadfile: \Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\khr_prototype_hl.wad
- - Contains 6 used textures, 2.54 percent of map (205 textures in wad)
+ - Contains 6 used textures, 2.44 percent of map (205 textures in wad)
 Using Wadfile: \Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\deepmind2_ny.wad
- - Contains 12 used textures, 5.08 percent of map (189 textures in wad)
+ - Contains 12 used textures, 4.88 percent of map (189 textures in wad)
 
 Wad files required to run the map: "halflife.wad;czcs_office.wad;czde_fastline.wad;winfades.wad;deepmind_windawz.wad;khr_prototype_hl.wad;deepmind2_ny.wad;"
-Texture usage is at 4.61 mb (of 32.00 mb MAX)
+Texture usage is at 4.86 mb (of 32.00 mb MAX)
 2 redundant named lights optimized.
-1.72 seconds elapsed
+1.91 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -111,42 +111,46 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4500...4718 (0.55 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5322 (0.63 seconds)
 BSP generation successful, writing portal file 'I:\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\maps\mf01.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3205 (0.44 seconds)
-SolidBSP [hull 2] 500...1000...1500...2000...2500...2784 (0.37 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3344 (0.46 seconds)
-Reduced 9385 clipnodes to 8755
-Reduced 3362 texinfos to 3137
-Reduced 236 texdatas to 232 (12612 bytes to 10212)
-Reduced 13832 planes to 4484
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...3643 (0.49 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3150 (0.40 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...3755 (0.57 seconds)
+Warning: No visible brushes in solid entity: model 118 (entity: classname "func_wall", origin "", targetname "", range (-848,1648,496) - (-752,1744,512))
+Warning: No visible brushes in solid entity: model 119 (entity: classname "func_wall", origin "", targetname "", range (-656,1648,496) - (-560,1744,512))
+Warning: No visible brushes in solid entity: model 120 (entity: classname "func_wall", origin "", targetname "", range (-848,1872,496) - (-752,1968,512))
+Warning: No visible brushes in solid entity: model 121 (entity: classname "func_wall", origin "", targetname "", range (-656,1872,496) - (-560,1968,512))
+Reduced 10859 clipnodes to 10127
+Reduced 3881 texinfos to 3624
+Reduced 246 texdatas to 242 (13052 bytes to 10652)
+Reduced 15610 planes to 5043
 FixBrinks:
-Increased 8755 clipnodes to 8880.
+Increased 10127 clipnodes to 10270.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models            106/512         6784/32768    (20.7%)
-planes           4484/32768      89680/655360   (13.7%)
-vertexes        11129/65535     133548/786420   (17.0%)
-nodes            4926/32767     118224/786408   (15.0%)
-texinfos         3137/32767     125480/1310680  ( 9.6%)
-faces            6947/65535     138940/1310700  (10.6%)
-* worldfaces     5851/32768          0/0        (17.9%)
-clipnodes        8880/32767      71040/262136   (27.1%)
-leaves           3304/32760      92512/917280   (10.1%)
-* worldleaves    2347/8192           0/0        (28.6%)
-marksurfaces    11089/65535      22178/131070   (16.9%)
-surfedges       31865/512000    127460/2048000  ( 6.2%)
-edges           18438/256000     73752/1024000  ( 7.2%)
-texdata          [variable]      10212/33554432 ( 0.0%)
+models            127/512         8128/32768    (24.8%)
+planes           5043/32768     100860/655360   (15.4%)
+vertexes        12293/65535     147516/786420   (18.8%)
+nodes            5591/32767     134184/786408   (17.1%)
+texinfos         3624/32767     144960/1310680  (11.1%)
+faces            7658/65535     153160/1310700  (11.7%)
+* worldfaces     6496/32768          0/0        (19.8%)
+clipnodes       10270/32767      82160/262136   (31.3%)
+leaves           3780/32760     105840/917280   (11.5%)
+* worldleaves    2707/8192           0/0        (33.0%)
+marksurfaces    12231/65535      24462/131070   (18.7%)
+surfedges       35048/512000    140192/2048000  ( 6.8%)
+edges           20336/256000     81344/1024000  ( 7.9%)
+texdata          [variable]      10652/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      73495/2097152  ( 3.5%)
-* AllocBlock       16/64             0/0        (25.0%)
-232 textures referenced
-=== Total BSP file data space used: 1083305 bytes ===
+entdata          [variable]      81668/2097152  ( 3.9%)
+* AllocBlock       18/64             0/0        (28.1%)
+242 textures referenced
+=== Total BSP file data space used: 1215126 bytes ===
 Wad files required to run the map: "halflife.wad;czcs_office.wad;czde_fastline.wad;winfades.wad;deepmind_windawz.wad;khr_prototype_hl.wad;deepmind2_ny.wad;"
-4.06 seconds elapsed
+4.47 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -160,8 +164,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: "C:\Program Files\J.A.C.K\halflife\vhlt34\hlvis_x64.exe" I:\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\maps\mf01 
 Arguments: I:\Games\SteamLibrary\steamapps\common\Half-Life\KEA1989\maps\mf01 -low 
- 334 portalleafs
- 679 numportals
+ 398 portalleafs
+ 845 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -181,12 +185,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.02 seconds)
+ (0.04 seconds)
 LeafThread:
- (0.12 seconds)
-average leafs visible: 49
-g_visdatasize:24820  compressed from 14028
-0.16 seconds elapsed
+ (0.15 seconds)
+average leafs visible: 52
+g_visdatasize:30480  compressed from 19900
+0.21 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -292,11 +296,11 @@ Warning: Texture 'win_light2': reflectivity (0.620148,0.931019,1.204772) greater
 Warning: Texture 'win_tile_flr2': reflectivity (1.156858,1.018392,0.922711) greater than 1.0.
 Warning: Texture 'offwall_bttm': reflectivity (1.166272,1.163028,1.161763) greater than 1.0.
 Warning: Texture 'wall_y': reflectivity (1.330897,1.144687,0.880369) greater than 1.0.
-232 textures referenced
+242 textures referenced
 Reading texlights from 'C:\Program Files\J.A.C.K\halflife\vhlt34\lights.rad'
 0 opaque models
 0 opaque faces
-6947 faces
+7658 faces
 Create Patches : Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
@@ -379,6 +383,7 @@ Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) great
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture '~spotblue': reflectivity (1.433034,1.972474,2.000000) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
@@ -485,8 +490,6 @@ Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) great
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
-Warning: Texture 'lite1_on': reflectivity (1.158672,1.642421,2.000000) greater than 1.0.
-Warning: Texture 'lite1_on': reflectivity (1.158672,1.642421,2.000000) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
@@ -496,16 +499,78 @@ Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) great
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '~spotblue': reflectivity (1.433034,1.972474,2.000000) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture 'win_light1': reflectivity (2.000000,1.592047,0.722621) greater than 1.0.
 Warning: Texture 'lite_flo_01': reflectivity (2.000000,2.000000,2.000000) greater than 1.0.
 Warning: Texture 'lite1_on': reflectivity (1.158672,1.642421,2.000000) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
-Warning: Texture 'vend_orange': reflectivity (2.000000,0.979737,0.000000) greater than 1.0.
-Warning: Texture 'vend_red': reflectivity (2.000000,0.000000,0.000000) greater than 1.0.
 Warning: Texture 'vend_green': reflectivity (0.000000,1.147789,0.049014) greater than 1.0.
+Warning: Texture 'vend_orange': reflectivity (2.000000,0.979737,0.000000) greater than 1.0.
 Warning: Texture 'vend_blue': reflectivity (0.000000,1.258607,2.000000) greater than 1.0.
+Warning: Texture 'vend_red': reflectivity (2.000000,0.000000,0.000000) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
+Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture 'lite1_on': reflectivity (1.158672,1.642421,2.000000) greater than 1.0.
+Warning: Texture 'lite1_on': reflectivity (1.158672,1.642421,2.000000) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
@@ -515,12 +580,14 @@ Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) great
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture 'lite1_on': reflectivity (1.158672,1.642421,2.000000) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
+Warning: Texture 'lite1_on': reflectivity (1.158672,1.642421,2.000000) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
@@ -531,6 +598,7 @@ Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) great
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '~spotblue': reflectivity (1.433034,1.972474,2.000000) greater than 1.0.
+Warning: Texture '~spotblue': reflectivity (1.433034,1.972474,2.000000) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
@@ -540,12 +608,6 @@ Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) great
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
-Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
-Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
-Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
-Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
-Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
-Warning: Texture '+Asew_light1': reflectivity (2.000000,1.457026,0.731539) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
@@ -566,70 +628,70 @@ Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
 Warning: Texture '+0~light6a': reflectivity (2.000000,0.101956,0.101956) greater than 1.0.
-17577 base patches
-248794 square feet [35826424.00 square inches]
-803 direct lights and 0 fast direct lights
+19018 base patches
+264466 square feet [38083228.00 square inches]
+881 direct lights and 0 fast direct lights
 4 light styles
 
 FindFacePositions:
- (1.94 seconds)
+ (2.29 seconds)
 BuildFacelights:
- (16.11 seconds)
+ (18.16 seconds)
 BuildVisLeafs:
- (7.87 seconds)
-visibility matrix   :   7.7 megs
+ (8.58 seconds)
+visibility matrix   :   7.8 megs
 MakeScales:
- (7.17 seconds)
-Transfer Lists :    14984738 :    14.98M transfers
-       Indices :    15198036 :    14.49M bytes
-          Data :    30021292 :    28.63M bytes
+ (7.99 seconds)
+Transfer Lists :    14027148 :    14.03M transfers
+       Indices :    16198360 :    15.45M bytes
+          Data :    28110114 :    26.81M bytes
 Bounce 1 GatherLight:
  (0.18 seconds)
 Bounce 2 GatherLight:
- (0.23 seconds)
+ (0.21 seconds)
 Bounce 3 GatherLight:
- (0.27 seconds)
+ (0.23 seconds)
 Bounce 4 GatherLight:
- (0.25 seconds)
+ (0.24 seconds)
 Bounce 5 GatherLight:
- (0.28 seconds)
+ (0.24 seconds)
 Bounce 6 GatherLight:
- (0.27 seconds)
+ (0.24 seconds)
 Bounce 7 GatherLight:
- (0.25 seconds)
+ (0.24 seconds)
 Bounce 8 GatherLight:
- (0.30 seconds)
+ (0.24 seconds)
 CreateTriangulations:
- (0.09 seconds)
+ (0.10 seconds)
 AddPatchLights:
- (2.74 seconds)
+ (2.08 seconds)
 FinalLightFace:
  (0.02 seconds)
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models            106/512         6784/32768    (20.7%)
-planes           4484/32768      89680/655360   (13.7%)
-vertexes        11129/65535     133548/786420   (17.0%)
-nodes            4926/32767     118224/786408   (15.0%)
-texinfos         3137/32767     125480/1310680  ( 9.6%)
-faces            6947/65535     138940/1310700  (10.6%)
-* worldfaces     5851/32768          0/0        (17.9%)
-clipnodes        8880/32767      71040/262136   (27.1%)
-leaves           3304/32760      92512/917280   (10.1%)
-* worldleaves    2347/8192           0/0        (28.6%)
-marksurfaces    11089/65535      22178/131070   (16.9%)
-surfedges       31865/512000    127460/2048000  ( 6.2%)
-edges           18438/256000     73752/1024000  ( 7.2%)
-texdata          [variable]      10212/33554432 ( 0.0%)
-lightdata        [variable]     809613/50331648 ( 1.6%)
-visdata          [variable]      24820/8388608  ( 0.3%)
-entdata          [variable]      73495/2097152  ( 3.5%)
-* AllocBlock       16/64             0/0        (25.0%)
-232 textures referenced
-=== Total BSP file data space used: 1917738 bytes ===
+models            127/512         8128/32768    (24.8%)
+planes           5043/32768     100860/655360   (15.4%)
+vertexes        12293/65535     147516/786420   (18.8%)
+nodes            5591/32767     134184/786408   (17.1%)
+texinfos         3624/32767     144960/1310680  (11.1%)
+faces            7658/65535     153160/1310700  (11.7%)
+* worldfaces     6496/32768          0/0        (19.8%)
+clipnodes       10270/32767      82160/262136   (31.3%)
+leaves           3780/32760     105840/917280   (11.5%)
+* worldleaves    2707/8192           0/0        (33.0%)
+marksurfaces    12231/65535      24462/131070   (18.7%)
+surfedges       35048/512000    140192/2048000  ( 6.8%)
+edges           20336/256000     81344/1024000  ( 7.9%)
+texdata          [variable]      10652/33554432 ( 0.0%)
+lightdata        [variable]     884229/50331648 ( 1.8%)
+visdata          [variable]      30480/8388608  ( 0.4%)
+entdata          [variable]      81668/2097152  ( 3.9%)
+* AllocBlock       18/64             0/0        (28.1%)
+242 textures referenced
+=== Total BSP file data space used: 2129835 bytes ===
 Wad files required to run the map: "halflife.wad;czcs_office.wad;czde_fastline.wad;winfades.wad;deepmind_windawz.wad;khr_prototype_hl.wad;deepmind2_ny.wad;"
-39.21 seconds elapsed
+42.45 seconds elapsed
 
 -----   END   hlrad -----
 
