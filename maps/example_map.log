@@ -1,0 +1,381 @@
+hlcsg v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLCSG_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -cliptype precise -wadautodetect -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -cliptype precise -wadautodetect -estimate -chart -low -wadinclude sdhlt.wad -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       6 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [      on ] [     off ]
+estimate              [      on ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [ precise ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[sdhlt.wad]
+
+CreateBrush:
+ (0.00 seconds)
+CSGBrush:
+ (0.01 seconds)
+
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 4 used textures, 100.00 percent of map (3116 textures in wad)
+
+Wad files required to run the map: "halflife.wad;"
+Texture usage is at 0.11 mb (of 32.00 mb MAX)
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              0/512            0/32768    ( 0.0%)
+planes            172/32768       3440/655360   ( 0.5%)
+vertexes            0/65535          0/786420   ( 0.0%)
+nodes               0/32767          0/786408   ( 0.0%)
+texinfos           10/32767        400/1310680  ( 0.0%)
+faces               0/65535          0/1310700  ( 0.0%)
+* worldfaces        0/32768          0/0        ( 0.0%)
+clipnodes           0/32767          0/262136   ( 0.0%)
+leaves              0/32760          0/917280   ( 0.0%)
+* worldleaves       0/8192           0/0        ( 0.0%)
+marksurfaces        0/65535          0/131070   ( 0.0%)
+surfedges           0/512000         0/2048000  ( 0.0%)
+edges               0/256000         0/1024000  ( 0.0%)
+texdata          [variable]        180/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       1884/2097152  ( 0.1%)
+* AllocBlock        0/64             0/0        ( 0.0%)
+4 textures referenced
+=== Total BSP file data space used: 5904 bytes ===
+Wad files required to run the map: "halflife.wad;"
+0.07 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLBSP_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -estimate -chart -low 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       6 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [      on ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 38 (0.00 seconds)
+BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map.prt'
+SolidBSP [hull 1] 47 (0.00 seconds)
+SolidBSP [hull 2] 48 (0.00 seconds)
+SolidBSP [hull 3] 48 (0.00 seconds)
+Reduced 62 clipnodes to 62
+Reduced 10 texinfos to 6
+Reduced 4 texdatas to 4 (180 bytes to 180)
+Reduced 172 planes to 50
+FixBrinks:
+Increased 62 clipnodes to 62.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              2/512          128/32768    ( 0.4%)
+planes             50/32768       1000/655360   ( 0.2%)
+vertexes           70/65535        840/786420   ( 0.1%)
+nodes              17/32767        408/786408   ( 0.1%)
+texinfos            6/32767        240/1310680  ( 0.0%)
+faces              50/65535       1000/1310700  ( 0.1%)
+* worldfaces       50/32768          0/0        ( 0.2%)
+clipnodes          62/32767        496/262136   ( 0.2%)
+leaves              9/32760        252/917280   ( 0.0%)
+* worldleaves       2/8192           0/0        ( 0.0%)
+marksurfaces       50/65535        100/131070   ( 0.1%)
+surfedges         236/512000       944/2048000  ( 0.0%)
+edges             119/256000       476/1024000  ( 0.0%)
+texdata          [variable]        180/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       1884/2097152  ( 0.1%)
+* AllocBlock        1/64             0/0        ( 1.6%)
+4 textures referenced
+=== Total BSP file data space used: 7948 bytes ===
+Wad files required to run the map: "halflife.wad;"
+0.12 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlvis -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLVIS_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -estimate -chart -low 
+   2 portalleafs
+   1 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       6 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [      on ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.00 seconds)
+LeafThread:
+ (0.00 seconds)
+average leafs visible: 2
+g_visdatasize:2  compressed from 2
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              2/512          128/32768    ( 0.4%)
+planes             50/32768       1000/655360   ( 0.2%)
+vertexes           70/65535        840/786420   ( 0.1%)
+nodes              17/32767        408/786408   ( 0.1%)
+texinfos            6/32767        240/1310680  ( 0.0%)
+faces              50/65535       1000/1310700  ( 0.1%)
+* worldfaces       50/32768          0/0        ( 0.2%)
+clipnodes          62/32767        496/262136   ( 0.2%)
+leaves              9/32760        252/917280   ( 0.0%)
+* worldleaves       2/8192           0/0        ( 0.0%)
+marksurfaces       50/65535        100/131070   ( 0.1%)
+surfedges         236/512000       944/2048000  ( 0.0%)
+edges             119/256000       476/1024000  ( 0.0%)
+texdata          [variable]        180/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          2/8388608  ( 0.0%)
+entdata          [variable]       1884/2097152  ( 0.1%)
+* AllocBlock        1/64             0/0        ( 1.6%)
+4 textures referenced
+=== Total BSP file data space used: 7950 bytes ===
+Wad files required to run the map: "halflife.wad;"
+0.02 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlrad -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLRAD_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -estimate -chart -smooth 75 -texlightgap 10 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map" -estimate -chart -smooth 75 -texlightgap 10 -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 6 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [                on ] [               off ]
+estimate             [                on ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            75.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global texlight gap  [            10.000 ] [             0.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+Using Wadfile: C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\example_map.wa_
+4 textures referenced
+Reading texlights from 'C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\lights.rad'
+0 opaque models
+0 opaque faces
+50 faces
+Create Patches : 414 base patches
+8874 square feet [1277952.00 square inches]
+2 direct lights and 0 fast direct lights
+1 light styles
+
+FindFacePositions:
+ (0.02 seconds)
+BuildFacelights:
+ (0.04 seconds)
+BuildVisLeafs:
+ (0.01 seconds)
+visibility matrix   :   0.0 megs
+MakeScales:
+ (0.03 seconds)
+Transfer Lists :      112126 :   112.13k transfers
+       Indices :       22580 :    22.05k bytes
+          Data :      225494 :   220.21k bytes
+Bounce 1 GatherLight:
+ (0.02 seconds)
+Bounce 2 GatherLight:
+ (0.02 seconds)
+Bounce 3 GatherLight:
+ (0.02 seconds)
+Bounce 4 GatherLight:
+ (0.02 seconds)
+Bounce 5 GatherLight:
+ (0.03 seconds)
+Bounce 6 GatherLight:
+ (0.03 seconds)
+Bounce 7 GatherLight:
+ (0.02 seconds)
+Bounce 8 GatherLight:
+ (0.02 seconds)
+CreateTriangulations:
+ (0.01 seconds)
+AddPatchLights:
+ (0.09 seconds)
+FinalLightFace:
+ (0.00 seconds)
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              2/512          128/32768    ( 0.4%)
+planes             50/32768       1000/655360   ( 0.2%)
+vertexes           70/65535        840/786420   ( 0.1%)
+nodes              17/32767        408/786408   ( 0.1%)
+texinfos            6/32767        240/1310680  ( 0.0%)
+faces              50/65535       1000/1310700  ( 0.1%)
+* worldfaces       50/32768          0/0        ( 0.2%)
+clipnodes          62/32767        496/262136   ( 0.2%)
+leaves              9/32760        252/917280   ( 0.0%)
+* worldleaves       2/8192           0/0        ( 0.0%)
+marksurfaces       50/65535        100/131070   ( 0.1%)
+surfedges         236/512000       944/2048000  ( 0.0%)
+edges             119/256000       476/1024000  ( 0.0%)
+texdata          [variable]        180/33554432 ( 0.0%)
+lightdata        [variable]      18240/50331648 ( 0.0%)
+visdata          [variable]          2/8388608  ( 0.0%)
+entdata          [variable]       1884/2097152  ( 0.1%)
+* AllocBlock        1/64             0/0        ( 1.6%)
+4 textures referenced
+=== Total BSP file data space used: 26190 bytes ===
+Wad files required to run the map: "halflife.wad;"
+0.50 seconds elapsed
+
+-----   END   hlrad -----
+
+
+
