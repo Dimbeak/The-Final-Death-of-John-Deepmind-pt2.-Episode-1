@@ -479,7 +479,7 @@
 	]
 ]
 
-@BaseClass base(Targetname, Angles, MoveWith) size(-16 -16 -16, 16 16 16) = gibshooterbase
+@BaseClass base(Targetname, Angles, MoveWith) size(-8 -8 -8, 8 8 8) = gibshooterbase
 [
 	//* The number of pieces to create.
 	m_iGibs(integer) : "Number of shots" : 1
@@ -1370,7 +1370,7 @@
 	LightningStart(target_destination) : "Start Entity" 
 	LightningEnd(target_destination) : "Ending Entity" 
 ]
-@PointClass base(Targetname, BeamStartEnd, RenderFxChoices) size(-16 -16 -16, 16 16 16) = env_beam : "Energy Beam Effect"
+@PointClass base(Targetname, BeamStartEnd, RenderFxChoices) size(-4 -4 -4, 4 4 4) = env_beam : "Energy Beam Effect"
 [
 	renderamt(integer) : "Brightness (1 - 255)" : 100
 	rendercolor(color255) : "Beam Color (R G B)" : "0 0 0"
@@ -1476,7 +1476,7 @@
 	]
 ]
 
-@PointClass base(Targetname, Angles, MoveWith) size(-16 -16 -16, 16 16 16) color(255 0 0) = env_blood : "Blood Effects" 
+@PointClass base(Targetname, Angles, MoveWith) size(-8 -8 -8, 8 8 8) color(255 0 0) = env_blood : "Blood Effects" 
 [
       target(string) : "Initial position (blank = here) [LP]"
 	netname(string) : "Direction (blank = angles) [LV]"
@@ -1738,7 +1738,7 @@
 ]
 
 //NEW 0.7.1
-@PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = env_decal : "Decal sprayer"
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = env_decal : "Decal sprayer"
 [
 	target(string) : "Position (blank = here) [LP]"
 	netname(string) : "Spray direction (blank = angle) [LV]"
@@ -1848,7 +1848,7 @@
 	]
 ]
 
-@PointClass base(Targetname, MoveWith) size(-16 -16 -16, 16 16 16) = env_explosion : "Explosion" 
+@PointClass base(Targetname, MoveWith) size(-8 -8 -8, 8 8 8) = env_explosion : "Explosion" 
 [
       target(string) : "Initial position (blank = here) [LP]"
 	iMagnitude(integer) : "Magnitude/Radius" : 100
@@ -1937,7 +1937,7 @@
 	]
 ]
 
-@PointClass base(Targetname, MoveWith) size(-16 -16 -16, 16 16 16) = env_funnel : "Large Portal Funnel" 
+@PointClass base(Targetname, MoveWith) size(-8 -8 -8, 8 8 8) = env_funnel : "Large Portal Funnel" 
 [
 	//NEW 0.7.1
 	message(string) : "Position (blank = here) [LP]"
@@ -1981,7 +1981,7 @@
 	scale(integer) : "Scale" : 1
 ]
 
-@PointClass base(Targetname, RenderFxChoices, Angles, MoveWith) size(-16 -16 -16, 16 16 16) = env_laser : "Laser Beam Effect"
+@PointClass base(Targetname, RenderFxChoices, Angles, MoveWith) size(-4 -4 -4, 4 4 4) = env_laser : "Laser Beam Effect"
 [
 	//NEW 1.0
 	LaserStart(target_destination) : "Start At (blank = here) [LP]"
@@ -2116,7 +2116,7 @@
 
 //NEW 0.7.1
 //* Creates various particle effects when triggered.
-@PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = env_quakefx : "Quake 1 particle effects"
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = env_quakefx : "Quake 1 particle effects"
 [
 	message(string) : "Position (blank = here) [LP]"
 	impulse(choices) : "Effect type" : 4 =
@@ -2153,7 +2153,7 @@
 	message(string) : "Particle file" : "aurora/smoke.aur"
 ]
 
-@PointClass base(Targetname, RenderFields) size(-16 -16 -16, 16 16 16) color(100 100 0) = env_render : "Render Controls"
+@PointClass base(Targetname, RenderFields) size(-8 -8 -8, 8 8 8) color(100 100 0) = env_render : "Render Controls"
 [
 	//NEW 0.7.1
 	//* The Renderamt number will be multiplied by this factor.
@@ -2231,7 +2231,7 @@
 	m_iStartFrame(integer) : "Starting Frame" : 0
 ]
 
-@PointClass base(gibshooterbase, RenderFields) size(-16 -16 -16, 16 16 16) = env_shooter : "Model Shooter"
+@PointClass base(gibshooterbase, RenderFields) size(-8 -8 -8, 8 8 8) = env_shooter : "Model Shooter"
 [
 	shootmodel(studio) : "Model or Sprite name" : "sprites/ballsmoke.spr"
 	scale(string) : "Scale" : ""
@@ -2352,7 +2352,7 @@
 	]
 ]
 
-@PointClass base(Targetname, Angles, MoveWith) size(-16 -16 -16, 16 16 16) = env_spark : "Spark" 
+@PointClass base(Targetname, Angles, MoveWith) size(-4 -4 -4, 4 4 4) = env_spark : "Spark" 
 [
       target(string) : "Initial position (blank = here) [LP]"
 	MaxDelay(string) : "Max Time between sparks" : "0"
