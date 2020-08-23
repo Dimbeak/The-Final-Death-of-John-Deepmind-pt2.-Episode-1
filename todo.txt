@@ -10,8 +10,15 @@ LEVEL DESIGN
 - lobby                                     Finish by 28th of September
 - twr01                                     Finish by 3rd of October
 - twr02                                     Finish by 10th of October
-- mf01                                      Finish by 25th of August
-- mf02                                      Finish by 10th of September
+
+- mf01                                      Finish by 29th of August
+    - Replace the moving laser
+      with a brush-based one
+
+- mf02                                      Finish by 15th of September
+
+- Copy all the bugged halflife.wad
+  textures and save them as custom          Finish by 31st of August
 
 MODELING
 - M4 sight retexture                        Finish by 16th of August
