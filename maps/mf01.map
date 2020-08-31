@@ -10911,7 +10911,7 @@
 {
 "classname" "light_surface"
 "convertto" "light"
-"_light" "85"
+"_light" "300"
 "_cone" "50"
 "_cone2" "100"
 "_scale" "12.0"
@@ -10923,7 +10923,7 @@
 {
 "classname" "light_surface"
 "convertto" "light"
-"_light" "85"
+"_light" "300"
 "_cone" "50"
 "_cone2" "100"
 "_scale" "12.0"
@@ -10935,7 +10935,7 @@
 {
 "classname" "light_surface"
 "convertto" "light"
-"_light" "85"
+"_light" "300"
 "_cone" "50"
 "_cone2" "100"
 "_scale" "12.0"
@@ -10947,7 +10947,7 @@
 {
 "classname" "light_surface"
 "convertto" "light"
-"_light" "85"
+"_light" "300"
 "_cone" "50"
 "_cone2" "100"
 "_scale" "12.0"
@@ -26970,38 +26970,6 @@
 "origin" "-632 1286 512"
 }
 {
-"classname" "env_laser"
-"texture" "sprites/laserbeam.spr"
-"spawnflags" "1024"
-"m_iStoppedBy" "0"
-"m_iProjection" "0"
-"frags" "0"
-"damage" "0"
-"framestart" "0"
-"TextureScroll" "35"
-"NoiseAmplitude" "0"
-"width" "5"
-"rendercolor" "255 0 0"
-"renderamt" "150"
-"m_iTowardsMode" "0"
-"angles" "0 0 0"
-"renderfx" "0"
-"StartSprite" "sprites/redglow.spr"
-"EndSprite" "sprites/redglow.spr"
-"LaserTarget" "laser_targ7"
-"target" "elevjunc_seq_mm"
-"targetname" "elevjunc_laser"
-"movewith" "elevjunc_laser_train1"
-"origin" "-591 1679 530"
-}
-{
-"classname" "info_target"
-"spawnflags" "0"
-"targetname" "laser_targ7"
-"movewith" "elevjunc_laser_train2"
-"origin" "-818 1936 530"
-}
-{
 "classname" "ambient_generic"
 "spawnflags" "50"
 "cspinup" "0"
@@ -27022,70 +26990,6 @@
 "targetname" "elevjunc_laser_snd"
 "message" "weapons/mine_activate.wav"
 "origin" "-712 1814 558"
-}
-{
-"classname" "env_laser"
-"texture" "sprites/laserbeam.spr"
-"spawnflags" "1024"
-"m_iStoppedBy" "0"
-"m_iProjection" "0"
-"frags" "0"
-"damage" "0"
-"framestart" "0"
-"TextureScroll" "35"
-"NoiseAmplitude" "0"
-"width" "5"
-"rendercolor" "255 0 0"
-"renderamt" "150"
-"m_iTowardsMode" "0"
-"angles" "0 0 0"
-"renderfx" "0"
-"StartSprite" "sprites/redglow.spr"
-"EndSprite" "sprites/redglow.spr"
-"LaserTarget" "laser_targ8"
-"target" "elevjunc_seq_mm"
-"targetname" "elevjunc_laser"
-"movewith" "elevjunc_laser_train3"
-"origin" "-591 1679 594"
-}
-{
-"classname" "info_target"
-"spawnflags" "0"
-"targetname" "laser_targ8"
-"movewith" "elevjunc_laser_train4"
-"origin" "-818 1936 594"
-}
-{
-"classname" "env_laser"
-"texture" "sprites/laserbeam.spr"
-"spawnflags" "1024"
-"m_iStoppedBy" "0"
-"m_iProjection" "0"
-"frags" "0"
-"damage" "0"
-"framestart" "0"
-"TextureScroll" "35"
-"NoiseAmplitude" "0"
-"width" "5"
-"rendercolor" "255 0 0"
-"renderamt" "150"
-"m_iTowardsMode" "0"
-"angles" "0 0 0"
-"renderfx" "0"
-"StartSprite" "sprites/redglow.spr"
-"EndSprite" "sprites/redglow.spr"
-"LaserTarget" "laser_targ9"
-"target" "elevjunc_seq_mm"
-"targetname" "elevjunc_laser"
-"movewith" "elevjunc_laser_train5"
-"origin" "-591 1679 658"
-}
-{
-"classname" "info_target"
-"spawnflags" "0"
-"targetname" "laser_targ9"
-"movewith" "elevjunc_laser_train6"
-"origin" "-818 1936 658"
 }
 {
 "classname" "trigger_autosave"
@@ -27830,116 +27734,6 @@
 "origin" "-896 1344 1300"
 }
 {
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train1_1"
-"target" "elevjunc_laser_train1_2"
-"origin" "-591 1679 554"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train1_2"
-"target" "elevjunc_laser_train1_1"
-"origin" "-591 1679 522"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train2_2"
-"target" "elevjunc_laser_train2_1"
-"origin" "-818 1936 522"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train2_1"
-"target" "elevjunc_laser_train2_2"
-"origin" "-818 1936 554"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train3_1"
-"target" "elevjunc_laser_train3_2"
-"origin" "-591 1679 594"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train3_2"
-"target" "elevjunc_laser_train3_1"
-"origin" "-591 1679 538"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train4_2"
-"target" "elevjunc_laser_train4_1"
-"origin" "-818 1936 538"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train4_1"
-"target" "elevjunc_laser_train4_2"
-"origin" "-818 1936 594"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train5_2"
-"target" "elevjunc_laser_train5_1"
-"origin" "-591 1679 542"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train5_1"
-"target" "elevjunc_laser_train5_2"
-"origin" "-591 1679 602"
-}
-{
 "classname" "func_train"
 "spawnflags" "2"
 "skin" "0"
@@ -27975,38 +27769,10 @@
 }
 }
 {
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train6_2"
-"target" "elevjunc_laser_train6_1"
-"origin" "-818 1936 542"
-}
-{
-"classname" "path_corner"
-"armorvalue" "0"
-"armortype" "0"
-"speed" "0"
-"wait" "0"
-"angles" "0 0 0"
-"targetname" "elevjunc_laser_train6_1"
-"target" "elevjunc_laser_train6_2"
-"origin" "-818 1936 602"
-}
-{
 "classname" "multi_manager"
 "spawnflags" "0"
 "targetname" "elevjunc_laserstop_mm"
 "elevjunc_laser" "1"
-"elevjunc_laser_train1" "1"
-"elevjunc_laser_train2" "1"
-"elevjunc_laser_train3" "1"
-"elevjunc_laser_train4" "1"
-"elevjunc_laser_train5" "1"
-"elevjunc_laser_train6" "1"
 "mode" "3"
 "elevjunc_laser_snd" "1"
 "origin" "-801 1914 632"
@@ -28192,14 +27958,6 @@
 }
 }
 {
-"classname" "trigger_auto"
-"spawnflags" "1"
-"triggerstate" "2"
-"delay" "1"
-"target" "elevjunc_laserstop_mm"
-"origin" "-675 1780 569"
-}
-{
 "classname" "ammo_9mmAR"
 "delay" "0"
 "skill" "0"
@@ -28214,4 +27972,365 @@
 "angles" "0 233 0"
 "scale" "1"
 "origin" "-607 944 524"
+}
+{
+"classname" "env_beam"
+"spawnflags" "3"
+"frags" "0"
+"damage" "0"
+"StrikeTime" "0"
+"framestart" "0"
+"framerate" "30"
+"TextureScroll" "35"
+"texture" "sprites/laserbeam.spr"
+"NoiseAmplitude" "0"
+"BoltWidth" "5"
+"life" "0"
+"Radius" "256"
+"rendercolor" "255 0 0"
+"renderamt" "150"
+"renderfx" "0"
+"LightningEnd" "elevjunc_laser_train2"
+"LightningStart" "elevjunc_laser_train1"
+"targetname" "elevjunc_laser"
+"target" "elevjunc_seq_mm"
+"origin" "-704 1824 528"
+}
+{
+"classname" "env_beam"
+"spawnflags" "3"
+"frags" "0"
+"damage" "0"
+"StrikeTime" "0"
+"framestart" "0"
+"framerate" "30"
+"TextureScroll" "35"
+"texture" "sprites/laserbeam.spr"
+"NoiseAmplitude" "0"
+"BoltWidth" "5"
+"life" "0"
+"Radius" "256"
+"rendercolor" "255 0 0"
+"renderamt" "150"
+"renderfx" "0"
+"LightningEnd" "elevjunc_laser_train4"
+"LightningStart" "elevjunc_laser_train3"
+"targetname" "elevjunc_laser"
+"target" "elevjunc_seq_mm"
+"origin" "-704 1824 592"
+}
+{
+"classname" "env_beam"
+"spawnflags" "3"
+"frags" "0"
+"damage" "0"
+"StrikeTime" "0"
+"framestart" "0"
+"framerate" "30"
+"TextureScroll" "35"
+"texture" "sprites/laserbeam.spr"
+"NoiseAmplitude" "0"
+"BoltWidth" "5"
+"life" "0"
+"Radius" "256"
+"rendercolor" "255 0 0"
+"renderamt" "150"
+"renderfx" "0"
+"LightningEnd" "elevjunc_laser_train6"
+"LightningStart" "elevjunc_laser_train5"
+"targetname" "elevjunc_laser"
+"target" "elevjunc_seq_mm"
+"origin" "-704 1824 664"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train3_1"
+"target" "elevjunc_laser_train3_2"
+"origin" "-591 1679 606"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train3_2"
+"target" "elevjunc_laser_train3_1"
+"origin" "-591 1679 556"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train1_1"
+"target" "elevjunc_laser_train1_2"
+"origin" "-591 1679 546"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train1_2"
+"target" "elevjunc_laser_train1_1"
+"origin" "-591 1679 520"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train5_1"
+"target" "elevjunc_laser_train5_2"
+"origin" "-591 1679 634"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train5_2"
+"target" "elevjunc_laser_train5_1"
+"origin" "-591 1679 568"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train2_1"
+"target" "elevjunc_laser_train2_2"
+"origin" "-818 1936 546"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train2_2"
+"target" "elevjunc_laser_train2_1"
+"origin" "-818 1936 520"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train4_2"
+"target" "elevjunc_laser_train4_1"
+"origin" "-818 1936 556"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train4_1"
+"target" "elevjunc_laser_train4_2"
+"origin" "-818 1936 606"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train6_2"
+"target" "elevjunc_laser_train6_1"
+"origin" "-818 1936 568"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train6_1"
+"target" "elevjunc_laser_train6_2"
+"origin" "-818 1936 634"
+}
+{
+"classname" "func_train"
+"spawnflags" "2"
+"skin" "0"
+"dmg" "2"
+"speed" "150"
+"volume" "0.85"
+"stopsnd" "0"
+"movesnd" "0"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"renderamt" "0"
+"rendermode" "0"
+"renderfx" "0"
+"targetname" "elevjunc_laser_train8"
+"target" "elevjunc_laser_train8_1"
+"zhlt_noclip" "1"
+"zhlt_invisible" "1"
+{
+( -817 1937 699 ) ( -817 1937 681 ) ( -817 1935 699 ) ORIGIN [ 0 1 0 -1 ] [ 0 0 -1 0 ] 0 1 1
+( -819 1935 699 ) ( -819 1935 681 ) ( -819 1937 699 ) ORIGIN [ 0 -1 0 1 ] [ 0 0 -1 0 ] 0 1 1
+( -817 1935 699 ) ( -817 1935 681 ) ( -819 1935 699 ) ORIGIN [ 1 0 0 3 ] [ 0 0 -1 0 ] 0 1 1
+( -819 1937 699 ) ( -819 1937 681 ) ( -817 1937 699 ) ORIGIN [ -1 0 0 -3 ] [ 0 0 -1 0 ] 0 1 1
+( -819 1937 699 ) ( -817 1937 699 ) ( -819 1935 699 ) ORIGIN [ -1 0 0 -3 ] [ 0 1 0 -1 ] 0 1 1
+( -817 1935 681 ) ( -817 1937 681 ) ( -819 1935 681 ) ORIGIN [ 1 0 0 3 ] [ 0 1 0 -1 ] 0 1 1
+}
+{
+( -817 1939 697 ) ( -817 1939 683 ) ( -817 1936 695 ) ~LAB1_COMP7B [ 0 0 -1 15.1926 ] [ -0.707107 -0.707107 -0 23.5454 ] 270 1 1
+( -818 1935 695 ) ( -818 1935 685 ) ( -821 1935 697 ) ~LAB1_COMP7B [ -0 -0 1 -21 ] [ 0.707107 0.707107 0 -21.5454 ] 90 1 1
+( -817 1936 695 ) ( -817 1936 685 ) ( -818 1935 695 ) +0~LIGHT6A [ 0.707107 0.707107 0 -14.2808 ] [ 0 0 -1 5.05492 ] 0 1 1
+( -821 1935 697 ) ( -821 1935 683 ) ( -817 1939 697 ) NULL [ -0.707107 -0.707107 0 46.5454 ] [ 0 0 -1 47 ] 0 1 1
+( -818 1935 685 ) ( -817 1936 685 ) ( -821 1935 683 ) ~LAB1_COMP7B [ -0.707107 -0.707107 -0 11.7383 ] [ -0 -0 1 -49 ] 180 1 1
+( -817 1939 697 ) ( -817 1936 695 ) ( -821 1935 697 ) ~LAB1_COMP7B [ 0.707107 0.707107 0 -17.3525 ] [ 0 0 -1 51 ] 0 1 1
+}
+}
+{
+"classname" "func_train"
+"spawnflags" "2"
+"skin" "0"
+"dmg" "2"
+"speed" "150"
+"volume" "0.85"
+"stopsnd" "0"
+"movesnd" "0"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"renderamt" "0"
+"rendermode" "0"
+"renderfx" "0"
+"targetname" "elevjunc_laser_train7"
+"target" "elevjunc_laser_train7_1"
+"zhlt_noclip" "1"
+"zhlt_invisible" "1"
+{
+( -592 1676 697 ) ( -592 1676 683 ) ( -592 1679 695 ) ~LAB1_COMP7B [ -0 -0 -1 15.1928 ] [ 0.707107 0.707107 -0 -0.331942 ] 270 1 1
+( -591 1680 695 ) ( -591 1680 685 ) ( -588 1680 697 ) ~LAB1_COMP7B [ 0 0 1 -21 ] [ -0.707107 -0.707107 0 2.33196 ] 90 1 1
+( -592 1676 697 ) ( -592 1679 695 ) ( -588 1680 697 ) ~LAB1_COMP7B [ -0.707107 -0.707107 0 -41.4752 ] [ 0 0 -1 51 ] 0 1 1
+( -591 1680 685 ) ( -592 1679 685 ) ( -588 1680 683 ) ~LAB1_COMP7B [ 0.707107 0.707107 -0 35.8609 ] [ 0 0 1 -49 ] 180 1 1
+( -588 1680 697 ) ( -588 1680 683 ) ( -592 1676 697 ) NULL [ 0.707107 0.707107 0 22.668 ] [ 0 0 -1 47 ] 0 1 1
+( -592 1679 695 ) ( -592 1679 685 ) ( -591 1680 695 ) +0~LIGHT6A [ -0.707107 -0.707107 0 -6.40315 ] [ 0 0 -1 5.05492 ] 0 1 1
+}
+{
+( -590 1680 699 ) ( -590 1680 681 ) ( -590 1678 699 ) ORIGIN [ 0 1 0 2 ] [ 0 0 -1 0 ] 0 1 1
+( -592 1678 699 ) ( -592 1678 681 ) ( -592 1680 699 ) ORIGIN [ 0 -1 0 -2 ] [ 0 0 -1 0 ] 0 1 1
+( -590 1678 699 ) ( -590 1678 681 ) ( -592 1678 699 ) ORIGIN [ 1 0 0 -2 ] [ 0 0 -1 0 ] 0 1 1
+( -592 1680 699 ) ( -592 1680 681 ) ( -590 1680 699 ) ORIGIN [ -1 0 0 2 ] [ 0 0 -1 0 ] 0 1 1
+( -592 1680 681 ) ( -592 1678 681 ) ( -590 1680 681 ) ORIGIN [ -1 0 0 2 ] [ 0 -1 0 -2 ] 0 1 1
+( -590 1678 699 ) ( -592 1678 699 ) ( -590 1680 699 ) ORIGIN [ 1 0 0 -2 ] [ 0 -1 0 -2 ] 0 1 1
+}
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train8_2"
+"target" "elevjunc_laser_train8_1"
+"origin" "-818 1936 524"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train8_1"
+"target" "elevjunc_laser_train8_2"
+"origin" "-818 1936 594"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train7_1"
+"target" "elevjunc_laser_train7_2"
+"origin" "-591 1679 594"
+}
+{
+"classname" "path_corner"
+"armorvalue" "0"
+"armortype" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "elevjunc_laser_train7_2"
+"target" "elevjunc_laser_train7_1"
+"origin" "-591 1679 524"
+}
+{
+"classname" "env_beam"
+"spawnflags" "3"
+"frags" "0"
+"damage" "0"
+"StrikeTime" "0"
+"framestart" "0"
+"framerate" "30"
+"TextureScroll" "35"
+"texture" "sprites/laserbeam.spr"
+"NoiseAmplitude" "0"
+"BoltWidth" "5"
+"life" "0"
+"Radius" "256"
+"rendercolor" "255 0 0"
+"renderamt" "150"
+"renderfx" "0"
+"LightningEnd" "elevjunc_laser_train8"
+"LightningStart" "elevjunc_laser_train7"
+"targetname" "elevjunc_laser"
+"target" "elevjunc_seq_mm"
+"origin" "-704 1824 692"
+}
+{
+"classname" "multi_manager"
+"spawnflags" "0"
+"targetname" "elevjunc_trainstop_mm"
+"elevjunc_laser_train1" "1"
+"elevjunc_laser_train2" "1"
+"elevjunc_laser_train3" "1"
+"elevjunc_laser_train4" "1"
+"elevjunc_laser_train5" "1"
+"elevjunc_laser_train6" "1"
+"mode" "3"
+"elevjunc_laser_train7" "1"
+"elevjunc_laser_train8" "1"
+"origin" "-784 1896 632"
+}
+{
+"classname" "trigger_auto"
+"spawnflags" "1"
+"triggerstate" "2"
+"delay" "0.5"
+"target" "RENAME_ME"
+"origin" "-784 1876 632"
 }
