@@ -589,7 +589,7 @@ Node #  33:
   34
   36
   37
-  38  Entity on connection: func_breakable, name:   Model: *243
+  38  Entity on connection: func_breakable, name:   Model: *241
   40
   42
   44
@@ -598,7 +598,7 @@ Node #  34:
 
   33
   36
-  37  Entity on connection: func_breakable, name:   Model: *243
+  37  Entity on connection: func_breakable, name:   Model: *241
   38
   40  Entity on connection: func_breakable, name: boss_chair  Model: *214
   42
@@ -628,17 +628,17 @@ Node #  37:
 
   32
   33
-  34  Entity on connection: func_breakable, name:   Model: *243
+  34  Entity on connection: func_breakable, name:   Model: *241
   35
   36
   38
   40
-  42  Entity on connection: func_breakable, name:   Model: *239
+  42  Entity on connection: func_breakable, name:   Model: *237
 ----------------------------------------------------------------------------
 Node #  38:
 
   32
-  33  Entity on connection: func_breakable, name:   Model: *243
+  33  Entity on connection: func_breakable, name:   Model: *241
   34
   35
   36
@@ -683,7 +683,7 @@ Node #  42:
   34
   35
   36
-  37  Entity on connection: func_breakable, name:   Model: *239
+  37  Entity on connection: func_breakable, name:   Model: *237
   40
   41
 ----------------------------------------------------------------------------
