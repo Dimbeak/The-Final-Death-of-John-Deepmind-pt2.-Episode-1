@@ -256,23 +256,23 @@ Node #   4:
 
    5
   14
-  15  Entity on connection: func_wall, name:   Model: *112
+  15  Entity on connection: func_wall, name:   Model: *114
 ----------------------------------------------------------------------------
 Node #   5:
 
    4
    6
    7
-  10  Entity on connection: func_wall, name:   Model: *111
+  10  Entity on connection: func_wall, name:   Model: *113
   14
-  15  Entity on connection: func_wall, name:   Model: *112
+  15  Entity on connection: func_wall, name:   Model: *114
 ----------------------------------------------------------------------------
 Node #   6:
 
    5
    7
   10
-  14  Entity on connection: func_wall, name:   Model: *111
+  14  Entity on connection: func_wall, name:   Model: *113
 ----------------------------------------------------------------------------
 Node #   7:
 
@@ -285,8 +285,8 @@ Node #   8:
 
    7
    9
-  20  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *44
-  23  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *44
+  20  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *45
+  23  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *45
 ----------------------------------------------------------------------------
 Node #   9:
 
@@ -298,11 +298,11 @@ Node #   9:
 ----------------------------------------------------------------------------
 Node #  10:
 
-   5  Entity on connection: func_wall, name:   Model: *111
+   5  Entity on connection: func_wall, name:   Model: *113
    6
    9
-  14  Entity on connection: func_wall, name:   Model: *111
-  15  Entity on connection: func_wall, name:   Model: *111
+  14  Entity on connection: func_wall, name:   Model: *113
+  15  Entity on connection: func_wall, name:   Model: *113
 ----------------------------------------------------------------------------
 Node #  11:
 
@@ -323,17 +323,17 @@ Node #  14:
 
    4
    5
-   6  Entity on connection: func_wall, name:   Model: *111
+   6  Entity on connection: func_wall, name:   Model: *113
    9
-  10  Entity on connection: func_wall, name:   Model: *111
+  10  Entity on connection: func_wall, name:   Model: *113
   15
 ----------------------------------------------------------------------------
 Node #  15:
 
-   4  Entity on connection: func_wall, name:   Model: *112
-   5  Entity on connection: func_wall, name:   Model: *112
+   4  Entity on connection: func_wall, name:   Model: *114
+   5  Entity on connection: func_wall, name:   Model: *114
    9
-  10  Entity on connection: func_wall, name:   Model: *111
+  10  Entity on connection: func_wall, name:   Model: *113
   14
 ----------------------------------------------------------------------------
 Node #  16:
@@ -344,30 +344,30 @@ Node #  16:
 Node #  17:
 
   18
-  19  Entity on connection: func_breakable, name: elv_doortrap1a  Model: *42
+  19  Entity on connection: func_breakable, name: elv_doortrap1a  Model: *43
   21
-  22  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *53
+  22  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *55
   32
 ----------------------------------------------------------------------------
 Node #  18:
 
   17
-  19  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *56
+  19  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *58
   21
   32
 ----------------------------------------------------------------------------
 Node #  19:
 
-  17  Entity on connection: func_breakable, name: elv_doortrap1a  Model: *42
-  18  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *56
+  17  Entity on connection: func_breakable, name: elv_doortrap1a  Model: *43
+  18  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *58
   20
-  21  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *56
+  21  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *58
   23
-  32  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *56
+  32  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *58
 ----------------------------------------------------------------------------
 Node #  20:
 
-   8  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *44
+   8  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *45
   19
   23
 ----------------------------------------------------------------------------
@@ -375,18 +375,18 @@ Node #  21:
 
   17
   18
-  19  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *56
-  22  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *53
+  19  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *58
+  22  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *55
   32
 ----------------------------------------------------------------------------
 Node #  22:
 
-  17  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *53
-  21  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *53
+  17  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *55
+  21  Entity on connection: func_breakable, name: elv_doortrap2a  Model: *55
 ----------------------------------------------------------------------------
 Node #  23:
 
-   8  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *44
+   8  Entity on connection: func_door_rotating, name: doubldr_piss_1  Model: *45
   19
   20
 ----------------------------------------------------------------------------
@@ -394,7 +394,7 @@ Node #  24:
 
   25
   26
-  27  Entity on connection: func_breakable, name:   Model: *38
+  27  Entity on connection: func_breakable, name:   Model: *39
 ----------------------------------------------------------------------------
 Node #  25:
 
@@ -408,7 +408,7 @@ Node #  26:
 ----------------------------------------------------------------------------
 Node #  27:
 
-  24  Entity on connection: func_breakable, name:   Model: *38
+  24  Entity on connection: func_breakable, name:   Model: *39
 ----------------------------------------------------------------------------
 Node #  28:
 
@@ -423,27 +423,27 @@ Node #  29:
   30
   34
   36
-  37  Entity on connection: func_breakable, name:   Model: *178
+  37  Entity on connection: func_breakable, name:   Model: *180
 ----------------------------------------------------------------------------
 Node #  30:
 
   28
   29
-  31  Entity on connection: func_breakable, name:   Model: *177
+  31  Entity on connection: func_breakable, name:   Model: *179
   34
   35
   37
 ----------------------------------------------------------------------------
 Node #  31:
 
-  30  Entity on connection: func_breakable, name:   Model: *177
+  30  Entity on connection: func_breakable, name:   Model: *179
   37
 ----------------------------------------------------------------------------
 Node #  32:
 
   17
   18
-  19  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *56
+  19  Entity on connection: func_breakable, name: elv_doortrap1b  Model: *58
   21
   33
 ----------------------------------------------------------------------------
@@ -458,7 +458,7 @@ Node #  34:
   29
   30
   35
-  37  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *81
+  37  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *83
 ----------------------------------------------------------------------------
 Node #  35:
 
@@ -473,17 +473,17 @@ Node #  36:
   28
   29
   35
-  37  Entity on connection: func_breakable, name:   Model: *178
+  37  Entity on connection: func_breakable, name:   Model: *180
 ----------------------------------------------------------------------------
 Node #  37:
 
   28
-  29  Entity on connection: func_breakable, name:   Model: *178
+  29  Entity on connection: func_breakable, name:   Model: *180
   30
   31
-  34  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *81
+  34  Entity on connection: func_wall_toggle, name: gonegirl2007  Model: *83
   35
-  36  Entity on connection: func_breakable, name:   Model: *178
+  36  Entity on connection: func_breakable, name:   Model: *180
 ----------------------------------------------------------------------------
 
  137 Total Initial Connections -    7 Maximum connections for a single node.
