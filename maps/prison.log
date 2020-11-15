@@ -1,0 +1,88 @@
+hlcsg v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLCSG_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison" -cliptype precise -wadautodetect -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison" -cliptype precise -wadautodetect -estimate -chart -low -wadinclude sdhlt.wad -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       6 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [      on ] [     off ]
+estimate              [      on ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [ precise ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[sdhlt.wad]
+
+CreateBrush:
+ (0.03 seconds)
+CSGBrush:
+ (0.12 seconds)
+
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\zhlt.wad
+ - Contains 1 used texture, 100.00 percent of map (12 textures in wad)
+
+Wad files required to run the map: "zhlt.wad;"
+Texture usage is at 0.02 mb (of 32.00 mb MAX)
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              0/512            0/32768    ( 0.0%)
+planes           1668/32768      33360/655360   ( 5.1%)
+vertexes            0/65535          0/786420   ( 0.0%)
+nodes               0/32767          0/786408   ( 0.0%)
+texinfos          326/32767      13040/1310680  ( 1.0%)
+faces               0/65535          0/1310700  ( 0.0%)
+* worldfaces        0/32768          0/0        ( 0.0%)
+clipnodes           0/32767          0/262136   ( 0.0%)
+leaves              0/32760          0/917280   ( 0.0%)
+* worldleaves       0/8192           0/0        ( 0.0%)
+marksurfaces        0/65535          0/131070   ( 0.0%)
+surfedges           0/512000         0/2048000  ( 0.0%)
+edges               0/256000         0/1024000  ( 0.0%)
+texdata          [variable]         48/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       9902/2097152  ( 0.5%)
+* AllocBlock        0/64             0/0        ( 0.0%)
+1 textures referenced
+=== Total BSP file data space used: 56350 bytes ===
+Wad files required to run the map: "zhlt.wad;"
+0.20 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+

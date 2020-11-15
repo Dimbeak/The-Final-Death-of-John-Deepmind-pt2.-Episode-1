@@ -16,3 +16,7 @@ Admer456 				- 	Technical advice, SoHL 1.2 VS2019 port.
 
 Andras					- 	Textures in some of the sewer maps, maybe somewhere else
 							too.
+
+-----------------------------------------------------------------------------------
+
+Strider					-	Basically we stole his sprites from TWHL Tower 2.
