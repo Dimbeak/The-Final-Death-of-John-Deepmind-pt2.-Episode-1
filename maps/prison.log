@@ -47,9 +47,9 @@ Wadinclude list :
 [sdhlt.wad]
 
 CreateBrush:
- (0.03 seconds)
+ (0.26 seconds)
 CSGBrush:
- (0.12 seconds)
+ (0.74 seconds)
 
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\zhlt.wad
  - Contains 1 used texture, 100.00 percent of map (12 textures in wad)
@@ -60,10 +60,10 @@ Texture usage is at 0.02 mb (of 32.00 mb MAX)
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models              0/512            0/32768    ( 0.0%)
-planes           1668/32768      33360/655360   ( 5.1%)
+planes           1696/32768      33920/655360   ( 5.2%)
 vertexes            0/65535          0/786420   ( 0.0%)
 nodes               0/32767          0/786408   ( 0.0%)
-texinfos          326/32767      13040/1310680  ( 1.0%)
+texinfos          357/32767      14280/1310680  ( 1.1%)
 faces               0/65535          0/1310700  ( 0.0%)
 * worldfaces        0/32768          0/0        ( 0.0%)
 clipnodes           0/32767          0/262136   ( 0.0%)
@@ -75,14 +75,155 @@ edges               0/256000         0/1024000  ( 0.0%)
 texdata          [variable]         48/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]       9902/2097152  ( 0.5%)
+entdata          [variable]       9428/2097152  ( 0.4%)
 * AllocBlock        0/64             0/0        ( 0.0%)
 1 textures referenced
-=== Total BSP file data space used: 56350 bytes ===
+=== Total BSP file data space used: 57676 bytes ===
 Wad files required to run the map: "zhlt.wad;"
-0.20 seconds elapsed
+1.32 seconds elapsed
 
 -----   END   hlcsg -----
+
+
+
+hlbsp v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLBSP_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison" -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison" -estimate -chart -low 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       6 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [      on ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1034 (0.36 seconds)
+BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison.prt'
+SolidBSP [hull 1] 500...910 (0.29 seconds)
+SolidBSP [hull 2] 500...855 (0.28 seconds)
+SolidBSP [hull 3] 500...930 (0.12 seconds)
+Reduced 1735 clipnodes to 1634
+Reduced 357 texinfos to 233
+Reduced 1 texdatas to 1 (48 bytes to 48)
+Reduced 1696 planes to 636
+FixBrinks:
+Increased 1634 clipnodes to 1634.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             18/512         1152/32768    ( 3.5%)
+planes            636/32768      12720/655360   ( 1.9%)
+vertexes         2950/65535      35400/786420   ( 4.5%)
+nodes             778/32767      18672/786408   ( 2.4%)
+texinfos          233/32767       9320/1310680  ( 0.7%)
+faces            1973/65535      39460/1310700  ( 3.0%)
+* worldfaces     1801/32768          0/0        ( 5.5%)
+clipnodes        1634/32767      13072/262136   ( 5.0%)
+leaves            403/32760      11284/917280   ( 1.2%)
+* worldleaves     287/8192           0/0        ( 3.5%)
+marksurfaces     2680/65535       5360/131070   ( 4.1%)
+surfedges        9644/512000     38576/2048000  ( 1.9%)
+edges            5222/256000     20888/1024000  ( 2.0%)
+texdata          [variable]         48/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       9428/2097152  ( 0.4%)
+* AllocBlock        7/64             0/0        (10.9%)
+1 textures referenced
+=== Total BSP file data space used: 215380 bytes ===
+Wad files required to run the map: "zhlt.wad;"
+2.37 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 v0.1 64-bit (Mar  9 2020)
+Seedee's Half-Life Tools v0.1
+Based on code modifications by vluzacn
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (cdaniel9000@gmail.com)
+-----  BEGIN  hlvis -----
+Command line: "C:\Users\Ezry.000\Desktop\HALF LIFE 1 MAPPING\COMPILE TOOLS\sdHLVIS_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison" -estimate -chart 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\KEA1989\maps\prison" -estimate -chart -low 
+ 188 portalleafs
+ 414 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       6 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [      on ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.15 seconds)
+LeafThread:
+ (0.11 seconds)
+average leafs visible: 37
+g_visdatasize:3089  compressed from 4512
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             18/512         1152/32768    ( 3.5%)
+planes            636/32768      12720/655360   ( 1.9%)
+vertexes         2950/65535      35400/786420   ( 4.5%)
+nodes             778/32767      18672/786408   ( 2.4%)
+texinfos          233/32767       9320/1310680  ( 0.7%)
+faces            1973/65535      39460/1310700  ( 3.0%)
+* worldfaces     1801/32768          0/0        ( 5.5%)
+clipnodes        1634/32767      13072/262136   ( 5.0%)
+leaves            403/32760      11284/917280   ( 1.2%)
+* worldleaves     287/8192           0/0        ( 3.5%)
+marksurfaces     2680/65535       5360/131070   ( 4.1%)
+surfedges        9644/512000     38576/2048000  ( 1.9%)
+edges            5222/256000     20888/1024000  ( 2.0%)
+texdata          [variable]         48/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]       3089/8388608  ( 0.0%)
+entdata          [variable]       9428/2097152  ( 0.4%)
+* AllocBlock        7/64             0/0        (10.9%)
+1 textures referenced
+=== Total BSP file data space used: 218469 bytes ===
+Wad files required to run the map: "zhlt.wad;"
+0.42 seconds elapsed
+
+-----   END   hlvis -----
 
 
 
